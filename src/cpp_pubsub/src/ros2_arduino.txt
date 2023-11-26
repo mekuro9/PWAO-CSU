@@ -1,0 +1,62 @@
+#include <stdio.h>
+#include <string.h>
+#include <fcntl.h>
+#include <errno.h>
+#include <termios.h>
+#include <unistd.h>
+
+#include <functional>
+#include <memory>
+
+#include "rclcpp/rclcpp.hpp"
+#include "std_msgs/msg/string.hpp"
+
+#include "../include/ros2_arduino.h"
+
+using std::placeholders::_1;
+
+PandaArduinoNode::PandaArduinoNode()
+  : Node("minimal_subscriber")
+{
+    posSubscription_ = this->create_subscription<std_msgs::msg::String>(
+      "panda_pos", 10, std::bind(&PandaArduinoNode::posCallback, this, _1));
+    pathSubscription_ = this->create_subscription<std_msgs::msg::String>(
+      "panda_path", 10, std::bind(&PandaArduinoNode::pathCallback, this, _1));
+
+    serialPort_ = open("/dev/ttyACM1", O_RDWR);    
+    if (serialPort_ < 0)
+      printf("Error opening port: %d %s\n", errno, strerror(errno));
+    
+    termios tty;
+    if (tcgetattr(serialPort_, &tty) != 0)
+      printf("Error getting props: %d %s\n", errno, strerror(errno));
+
+    cfsetspeed(&tty, B115200);
+
+    if (tcsetattr(serialPort_, TCSANOW, &tty) != 0)
+      printf("Error setting props: %d %s\n", errno, strerror(errno));
+}
+
+void PandaArduinoNode::posCallback(const std_msgs::msg::String & msg) const
+{
+    RCLCPP_INFO(this->get_logger(), "Pos: '%s'", msg.data.c_str());
+
+    std::string data = "C" + msg.data + "\r\n"; 
+    write(serialPort_, data.c_str(), data.length());
+}
+
+void PandaArduinoNode::pathCallback(const std_msgs::msg::String & msg) const
+{
+    RCLCPP_INFO(this->get_logger(), "Path: '%s'", msg.data.c_str());
+
+    std::string data = "P" + msg.data + "\r\n"; 
+    write(serialPort_, data.c_str(), data.length());
+}
+
+int main(int argc, char * argv[])
+{
+  rclcpp::init(argc, argv);
+  rclcpp::spin(std::make_shared<PandaArduinoNode>());
+  rclcpp::shutdown();
+  return 0;
+}
