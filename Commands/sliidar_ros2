@@ -1,0 +1,14 @@
+Starting rplidar s2 with ros2
+commands:
+source /opt/ros/humble/setup.bash
+cd humble_ws/
+. install/setup.bash
+
+cd src/sllidar_ros2/
+source scripts/create_udev_rules.sh %% only once ig
+
+or 
+sudo chmod 777 /dev/ttyUSB0 %% everytime
+
+
+ros2 launch sllidar_ros2 view_sllidar_s2_launch.py
