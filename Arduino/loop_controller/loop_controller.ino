@@ -13,16 +13,22 @@
 #include <rcl/error_handling.h>
 #include <rclc/rclc.h>
 #include <rclc/executor.h>
+
 #include <sensor_msgs/msg/laser_scan.h>
 #include <sensor_msgs/msg/imu.h>
+#include <std_msgs/msg/string.h>
+
 #include <vector>
+#include <string>
+
 #include <Wire.h>
 #include <Adafruit_Sensor.h>
 #include <Adafruit_BNO055.h>
 #include <utility/imumaths.h>
 #include <EEPROM.h>
+
 #include "imu_util.h"
-#include <lidar_util.h>
+#include "lidar_util.h"
 
 
 /* ================== IMU =================== */
@@ -38,11 +44,12 @@ Adafruit_BNO055 bno = Adafruit_BNO055(11);
 /* ================= RPLIDAR ================ */
 
 #define RAD2DEG(x) ((x)*180./M_PI)
-//float scan_angle[3240];
-//float scan_range[3240];
 std::vector<float> scan_angle;
 std::vector<float> scan_range;
 
+/* ================= USER INPUT ================ */
+
+std::string key_;
 
 /* ================= Micro-ros ============== */
 
@@ -59,6 +66,9 @@ rcl_subscription_t teensy_lidarSub_; // subscriber for lidar data, topic name: '
 sensor_msgs__msg__LaserScan lidarscan;  // message type for lidarscan
 rclc_executor_t executor_sub;
 
+rcl_subscription_t teensy_keyboard_; // subscriber for keyboard input 
+std_msgs__msg__String keyboard_data; // message type for keyboard data
+rclc_executor_t executor_keyboard;
 
 #define LED_PIN 13
 
@@ -88,17 +98,23 @@ void subscription_callback(const void * msgin)
   int count = lidarscan->scan_time / lidarscan->time_increment; 
   for (int i = 0; i < count; i++){
     float degree = RAD2DEG(lidarscan->angle_min + lidarscan->angle_increment*i);
-    //scan_angle[i] = degree;
-    //scan_range[i] = lidarscan->ranges.data[i];
     scan_angle.push_back(degree);
     scan_range.push_back(lidarscan->ranges.data[i]);
 
   }
 }
 
+void keyboard_callback(const void * msgin)
+{
+  const std_msgs__msg__String * keyboard_data = (const std_msgs__msg__String *)msgin;
+  key_ = keyboard_data.data;
+}
+
 void setup() {
+    
+    /* =========================== Input ================================ */
 
-
+  key_ = "X";
     /* =========================== IMU ================================ */
 
   if(!bno.begin()){
@@ -174,12 +190,19 @@ void setup() {
   // create node
   RCCHECK(rclc_node_init_default(&node, "micro_ros_arduino_node", "", &support));
 
-  // create subscriber
+  // create subscriber for lidar
   RCCHECK(rclc_subscription_init_default(
     &teensy_lidarSub_,
     &node,
     ROSIDL_GET_MSG_TYPE_SUPPORT(sensor_msgs, msg, LaserScan),
     "scan"));
+
+  //create subscriber for keyboard input
+  RCCHECK(rclc_subscription_init_default(
+    &teensy_keyboard_,
+    &node,
+    ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, String),
+    "userinput"))
 
   // create publisher
   RCCHECK(rclc_publisher_init_default(
@@ -190,7 +213,7 @@ void setup() {
   ));
 
   //create timer (imu output at the rate of 100hz)
-  const unsigned int timer_timeout = 10;
+  const unsigned int timer_timeout = 10; //10ms
   RCCHECK(rclc_timer_init_default(
     &timer,
     &support,
@@ -202,6 +225,9 @@ void setup() {
   RCCHECK(rclc_executor_init(&executor_sub, &support.context, 1, &allocator));
   RCCHECK(rclc_executor_add_subscription(&executor_sub, &teensy_lidarSub_, &lidarscan, &subscription_callback, ON_NEW_DATA));
   
+  RCCHECK(rclc_executor_init(&executor_keyboard, &support.context, 1, &allocator));
+  RCCHECK(rclc_executor_add_subscription(&executor_keyboard, &teensy_keyboard_, &keyboard_data, &keyboard_callback, ON_NEW_DATA));
+
   RCCHECK(rclc_executor_init(&executor_pub, &support.context, 1, &allocator));
   RCCHECK(rclc_executor_add_timer(&executor_pub, &timer));
 
