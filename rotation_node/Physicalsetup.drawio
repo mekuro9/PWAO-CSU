@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-17T22:07:51.128Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="Z7V2DKuSPmMfcWAqlR6c" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-17T22:08:57.395Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="MC5b96UNpUky2fjUvTas" version="23.1.5" type="github">
   <diagram name="Page-1" id="ibsbEGz1iDkAmBgq8Vs7">
     <mxGraphModel dx="974" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -41,11 +41,13 @@
         <mxCell id="QXe2mMSbQ6otZdOFWkOk-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.857;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="QXe2mMSbQ6otZdOFWkOk-2" target="QXe2mMSbQ6otZdOFWkOk-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QXe2mMSbQ6otZdOFWkOk-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QXe2mMSbQ6otZdOFWkOk-19" target="QXe2mMSbQ6otZdOFWkOk-10">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="QXe2mMSbQ6otZdOFWkOk-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="QXe2mMSbQ6otZdOFWkOk-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="190" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="QXe2mMSbQ6otZdOFWkOk-19" value="Power Supply 5V ~1.5A" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="620" y="140" width="60" height="50" as="geometry" />
+        <mxCell id="QXe2mMSbQ6otZdOFWkOk-21" value="External Power Supply 5V ~1.5 A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="620" y="130" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
