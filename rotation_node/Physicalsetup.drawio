@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2024-02-18T08:20:03.740Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="R4bcazIBXATNzxnwTTyN" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-18T08:25:05.084Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="en1I9g3QyaNNy9OUdfae" version="23.1.5" type="github">
   <diagram name="Page-1" id="ibsbEGz1iDkAmBgq8Vs7">
-    <mxGraphModel dx="974" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1299" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QXe2mMSbQ6otZdOFWkOk-54" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="140" y="600" width="790" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="QXe2mMSbQ6otZdOFWkOk-53" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="930" y="600" width="350" height="440" as="geometry" />
+        </mxCell>
         <mxCell id="QXe2mMSbQ6otZdOFWkOk-1" value="Lenovo Laptop " style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="350" y="230" width="185" height="140" as="geometry" />
         </mxCell>
@@ -132,6 +138,12 @@
         </mxCell>
         <mxCell id="QXe2mMSbQ6otZdOFWkOk-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.618;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="QXe2mMSbQ6otZdOFWkOk-36" target="QXe2mMSbQ6otZdOFWkOk-39">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QXe2mMSbQ6otZdOFWkOk-55" value="&lt;b&gt;Laptop (Ubuntu 22.04 and Ros Humble)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1010" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QXe2mMSbQ6otZdOFWkOk-56" value="&lt;b&gt;Teensy 4.0&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1010" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
