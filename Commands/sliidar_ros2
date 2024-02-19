@@ -15,3 +15,6 @@ ros2 launch sllidar_ros2 view_sllidar_s2_launch.py
 Topic
 ros2 topic list -> /scan
 
+python3 -m http.server 8080
+ros2 launch rosbridge_server rosbridge_websocket_launch.xml
+ros2 launch depthai_examples mobile_publisher.launch.py camera_model:=OAK-D-LITE
