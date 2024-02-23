@@ -130,9 +130,11 @@ double subEulerX = 0;
 double subEulerY = 0;
 double subEulerZ = 0;
 
+imu::Vector<3> orient;
+
 void loop() {
   // put your main code here, to run repeatedly:
-      imu::Vector<3> gyro = bno.getVector(Adafruit_BNO055::VECTOR_GYROSCOPE);
+    imu::Vector<3> gyro = bno.getVector(Adafruit_BNO055::VECTOR_GYROSCOPE);
     imu::Vector<3> euler = bno.getQuat().toEuler();
 
     if(zero == false) {
@@ -162,7 +164,7 @@ void loop() {
       Serial.print((float)z);
       Serial.println(F(""));
 
-      uint8_t sys, gyro, accel, mag = 0;
+      /*uint8_t sys, gyro, accel, mag = 0;
       bno.getCalibration(&sys, &gyro, &accel, &mag);
       
       Serial.print(F("Calibration: "));
@@ -172,7 +174,7 @@ void loop() {
       Serial.print(F(" "));
       Serial.print(accel, DEC);
       Serial.print(F(" "));
-      Serial.print(mag, DEC);
+      Serial.print(mag, DEC);*/
 
 }
   i += 1;
