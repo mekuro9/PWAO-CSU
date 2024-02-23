@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ROS Image Viewer</title>
+  <!-- Include roslibjs and other dependencies -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/eventemitter2@6.4.9/lib/eventemitter2.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/roslib@1/build/roslib.min.js"></script>
+  
+</head>
+<body>
+  <h1>ROS Image Viewer</h1>
+  <canvas id="imageCanvas" width="640" height="480"></canvas>
+
+  <script>
+    // ROS setup
+    const ros = new ROSLIB.Ros({
+      url: 'ws://192.168.1.137:9090' // Replace with your ROS master IP and port
+    });
+
+    // Image subscriber setup
+    const imageTopic = new ROSLIB.Topic({
+      ros: ros,
+      name: '/color/image/compressed', // Replace with your ROS image topic
+      messageType: 'sensor_msgs/CompressedImage'
+    });
+
+    // Canvas setup
+    const canvas = document.getElementById('imageCanvas');
+    const ctx = canvas.getContext('2d');
+
+    // Image callback function
+    imageTopic.subscribe(function (message) {
+      const img = new Image();
+      img.onload = function () {
+        ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+      };
+      img.src = 'data:image/png;base64,' + message.data; // Assuming the image data is in base64 format
+    });
+
+    // Handle ROS connection events
+    ros.on('connection', function () {
+      console.log('Connected to ROS');
+    });
+
+    ros.on('error', function (error) {
+      console.error('Error connecting to ROS:', error);
+    });
+
+    ros.on('close', function () {
+      console.log('Connection to ROS closed');
+    });
+  </script>
+
+</body>
+</html>
+
