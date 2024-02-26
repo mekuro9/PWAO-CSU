@@ -1,0 +1,10 @@
+python3
+python3 -m venv moro
+
+source moro/bin/activate (moro is venv)
+deactivate
+
+example
+python3 ./transformation.py
+
+

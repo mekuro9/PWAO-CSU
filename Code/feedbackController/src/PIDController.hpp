@@ -13,22 +13,23 @@
 //                                 GPLv3 License
 ==============================================================*/
 
-#ifndef PIDCONTROLLER_H
-#define PIDCONTROLLER_H
+#ifndef PIDCONTROLLER_HPP
+#define PIDCONTROLLER_HPP
 
 #include <iostream>
 #include "FeedbackController.hpp"
 #include <Arduino.h>
 
+
+enum class pid_controller_type{
+        typePID,
+        typePI
+    };
+
 template <typename T, typename U>
 class PIDController : public FeedbackController<T, U> {
 
 public:
-
-    enum class pid_controller_type{
-        typePID,
-        typePI
-    };
 
     // Constructor
     PIDController(T*, T*, U*, float, float, float, pid_controller_type);

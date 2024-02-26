@@ -6,8 +6,8 @@
 // Description :    Header Abstract base class for feedback controller      
 ==============================================================*/
 
-#ifndef FeedbackController_h
-#define FeedbackController_h
+#ifndef FeedbackController_hpp
+#define FeedbackController_hpp
 
 //#include "Arduino.h"
 
