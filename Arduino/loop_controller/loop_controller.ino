@@ -66,6 +66,24 @@ int limitValue(int value){
   return value;
 }
 
+double keyboardInput(char input){
+
+  if((input == 'a')or(input == 'A')){
+        rotateby -= 10;
+  }
+  else if((input == 'd')or(input == 'D')){
+    rotateby += 10;
+  }
+  else{
+    rotateby += 0;
+    Serial.println("Wrong input");
+    Serial.println("");
+  }
+
+  return rotateby;
+
+}
+////////////////////////////////////////
 double wrapAngle(double angle){
   // Wrap the angle rotation by +- 180 deg
   if(angle > 180){
@@ -79,6 +97,8 @@ double wrapAngle(double angle){
   }  
  return angle;
 }
+///////////////////////////////////////////
+
 /* ================= Micro-ros =============== */
 
 rclc_support_t support;
