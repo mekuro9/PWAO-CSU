@@ -39,9 +39,10 @@ private:
   void initializeTopicData(){
     // make this for sensor data and communication failure
     rclcpp::Time current_time = this->now();
-    topics_.emplace_back("topic1",current_time);
-    topics_.emplace_back("topic2",current_time);
-    topics_.emplace_back("topic3",current_time);
+    topics_.emplace_back("scan",current_time);
+    topics_.emplace_back("scan/processed",current_time);
+    topics_.emplace_back("imu",current_time);
+    topics_.emplace_back("color/image",current_time);
   }
 
   void setupSubscriptions(){
@@ -73,10 +74,10 @@ private:
           errorType = ErrorType::NO_SENSOR_MESSAGE;
         } else if(topic.topicName == "scan/processed"){
           errorType = ErrorType::NO_SENSOR_MESSAGE;
-        }else if(topic.topicName == ""){
+        }else if(topic.topicName == "imu"){
           errorType = ErrorType::NO_SENSOR_MESSAGE;
-        }else if(topic.topicName == ""){
-          errorType = ErrorType::COMMUNICATION_FAILURE;
+        }else if(topic.topicName == "color/image"){
+          errorType = ErrorType::NO_SENSOR_MESSAGE;
         }
 
         ErrorHandler ErrorHandler(this, errorType, error_message);
