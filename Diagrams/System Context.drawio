@@ -1,20 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2024-04-02T20:33:30.261Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="mgrzaPdXm6drzkZRVTtr" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-02T20:54:08.417Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="Ui4dAsoSp79nKF2jnI-G" version="23.1.5" type="github">
   <diagram name="Page-1" id="mF5-1dpCMwhVGof68q4r">
     <mxGraphModel dx="2284" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="1jMmflOh6GedlvBDHYe3-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#F5F4F3;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="-270" y="70" width="1020" height="1020" as="geometry" />
+          <mxGeometry x="-410" y="70" width="1370" height="1370" as="geometry" />
         </mxCell>
-        <mxCell id="1jMmflOh6GedlvBDHYe3-3" value="&lt;font color=&quot;#241f31&quot; style=&quot;font-size: 16px;&quot;&gt;Power Wheelchair Add On&lt;br&gt;(PWAO)&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f1a226;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="155" y="400" width="190" height="190" as="geometry" />
+        <mxCell id="1jMmflOh6GedlvBDHYe3-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;strokeWidth=2;" edge="1" parent="1" source="1jMmflOh6GedlvBDHYe3-3" target="1jMmflOh6GedlvBDHYe3-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1jMmflOh6GedlvBDHYe3-3" value="&lt;font color=&quot;#241f31&quot; style=&quot;font-size: 16px;&quot;&gt;Power Wheelchair Add On&lt;br&gt;Control System Unit (PWAO-CSU)&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f1a226;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="170" y="510" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="1jMmflOh6GedlvBDHYe3-4" value="f1a226" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="670" y="90" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1jMmflOh6GedlvBDHYe3-5" value="298c8c" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="670" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1jMmflOh6GedlvBDHYe3-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;exitX=0.929;exitY=0.014;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.07;entryY=0.265;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="1jMmflOh6GedlvBDHYe3-7" target="1jMmflOh6GedlvBDHYe3-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-35" y="520" />
+              <mxPoint x="184" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1jMmflOh6GedlvBDHYe3-7" value="&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#ffffff&quot;&gt;User Assistive Device&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#298c8c;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="540" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1jMmflOh6GedlvBDHYe3-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeWidth=2;" edge="1" parent="1" source="1jMmflOh6GedlvBDHYe3-10" target="1jMmflOh6GedlvBDHYe3-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="905" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1jMmflOh6GedlvBDHYe3-10" value="&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#ffffff&quot;&gt;Sensors&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#298c8c;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="370" y="870" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1jMmflOh6GedlvBDHYe3-11" value="&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#ffffff&quot;&gt;Power Wheelchair Interface Bridge&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#298c8c;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="500" y="370" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1jMmflOh6GedlvBDHYe3-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.6;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;strokeWidth=2;" edge="1" parent="1" source="1jMmflOh6GedlvBDHYe3-3" target="1jMmflOh6GedlvBDHYe3-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="640" />
+              <mxPoint x="-104" y="640" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
