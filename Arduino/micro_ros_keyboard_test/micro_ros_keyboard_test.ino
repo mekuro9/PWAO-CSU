@@ -67,19 +67,19 @@ float desiredAngle = 0.0; // Desired turn angle in degrees
 float currentAngle = 0.0; // Current angle from IMU
 float motorSpeed = 0.0; // Speed correction for motors
 
-float maxSpeed = 40;
-float maxAcceleration = 40;
+float maxSpeed = 60;
+float maxAcceleration = 60;
 
 //controller type 
 pid_controller_t Ocontroller = typePID;
 pid_controller_t Icontroller = typePID;
 // PID gains - these need tuning for your specific application
-float ikp = 2;
+float ikp = 5;
 float iki = 0.00005;
-float ikd = 10;
+float ikd = 1;
 // PID OuterLoop
-float Okp = 2;
-float Oki = 0.005;
+float Okp = 5;
+float Oki = 0;
 float Okd = 1;
 
 // PID Controller for motorPID, gyroSetpoint is the OuterControllerOutput which is rad/s. The measurement is angular velocity and the output is int pwm
@@ -180,13 +180,10 @@ void error_loop(){
 
 void keyboard_callback(const void * msgin)
 {
-  const std_msgs__msg__Int32 * keyboard_data = (const std_msgs__msg__Int32 *)msgin;
-  int user = keyboard_data->data;  // S = 83, W= 87, A = 65, D = 68
+ // const std_msgs__msg__Int32 * keyboard_data = (const std_msgs__msg__Int32 *)msgin;
+ // int user = keyboard_data;  // S = 83, W= 87, A = 65, D = 68
 
-  (user==83) ? (action -= step) : (action += 0);
-  (user==87) ? (action += step) : (action += 0);
-  (user==65) ? (rotateby -= 30) : (rotateby += 0);
-  (user==68) ? (rotateby += 30) : (rotateby += 0);
+ 
 
   user_input = true;
   
@@ -344,11 +341,14 @@ void loop() {
         gyro = bno.getVector(Adafruit_BNO055::VECTOR_GYROSCOPE);
 
         // Check for serial data (keyboard input for rotation)
-        if(user_input == true) {
-        
+        if((keyboard_data.data == 'a')or(keyboard_data.data == 'A')){
+              rotateby -= 10;
+        }else if((keyboard_data.data == 'd')or(keyboard_data.data == 'D')){
+                rotateby += 10;
+        }else{
+                rotateby += 0;
+        }
         desiredAngle = wrapAngle(rotateby); //function to wrap the angle
-        user_input = false; 
-      }
 
       if(justonce == true){
         int pot1 = midlinear;//129;// 5.924
@@ -392,13 +392,14 @@ void loop() {
     
       //if((abs(errorO) > 2)){
       // Apply the controller output to the motors to turn
-      if (abs(errorO) > 1) {
+      if (abs(errorO) > 2) {
         // Turn 
         
           turn(speedControllerOutput);
+          digitalWrite(LED_PIN, !digitalRead(LED_PIN));
+
         }else{
-        error = 0;
-        errorO = 0;
+
         int pot1 = midlinear;//129;// 5.924
         int pot2 = midturn;//128;// 5.920
 
@@ -409,6 +410,7 @@ void loop() {
         Wire.beginTransmission(0x2C);
         Wire.write(0x80);  // the other one: 0x00, 0x80
         Wire.write(pot2);
+        Wire.endTransmission();
 
         }
 

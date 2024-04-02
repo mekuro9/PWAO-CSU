@@ -81,18 +81,18 @@ float desiredAngle = 0.0; // Desired turn angle in degrees
 float currentAngle = 0.0; // Current angle from IMU
 float motorSpeed = 0.0; // Speed correction for motors
 
-float maxSpeed = 40;
-float maxAcceleration = 40;
+float maxSpeed = 60;
+float maxAcceleration = 60;
 
 //controller type 
 pid_controller_t Ocontroller = typePID;
 pid_controller_t Icontroller = typePID;
 // PID gains - these need tuning for your specific application
-float ikp = 2;
+float ikp = 5;
 float iki = 0.00005;
-float ikd = 10;
+float ikd = 1;
 // PID OuterLoop
-float Okp = 2;
+float Okp = 5;
 float Oki = 0;
 float Okd = 1;
 
@@ -401,8 +401,7 @@ void loop() {
           turn(speedControllerOutput);
           Serial.print("here 1");
         }else{
-        error = 0;
-        errorO = 0;
+
         int pot1 = midlinear;//129;// 5.924
         int pot2 = midturn;//128;// 5.920
 
@@ -413,6 +412,7 @@ void loop() {
         Wire.beginTransmission(0x2C);
         Wire.write(0x80);  // the other one: 0x00, 0x80
         Wire.write(pot2);
+        Wire.endTransmission();
         Serial.println("here ");
 
         }
