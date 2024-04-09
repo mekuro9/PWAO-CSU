@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/eventemitter2@6.4.9/lib/eventemitter2.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/roslib@1/build/roslib.min.js"></script>
+    <script type="text/javascript" type="text/javascript">
+        // Connecting to ROS2 
+        var ros = new ROSLIB.Ros({ url : 'ws://localhost:9090'});
+
+        ros.on('connection',function(){
+            console.log('Connected to websocket server');
+        });
+
+        ros.on('error', function(error){
+            console.log('Error connecting to websocket server: ', error);
+        });
+
+        ros.on('close', function(){
+            console.log('Connection to websocket server closed.');
+        });
+
+
+        // Publishing to a topic
+        // Here lets publish a string 'Go'
+
+        const Gobutton = new ROSLIB.Topic({
+            ros : ros,
+            name : '/webinput/command',
+            messageType: 'std_msgs/String'
+        });
+
+        const timeStampMsg = new ROSLIB.Topic({
+            ros : ros,
+            name : '/webinput/timestamp',
+            messageType: 'std_msgs/String'
+        });
+
+        const msgCount = new ROSLIB.Topic({
+            ros : ros,
+            name : '/webinput/counter',
+            messageType: 'std_msgs/String'
+        });
+
+        (function() {
+        // counter of message
+        let count_ = 0;
+
+        function publishToROS(command, timestamp){
+            count_++;
+
+            const forward = new ROSLIB.Message({
+                data : command
+            });
+            const time = new ROSLIB.Message({
+                data : timestamp
+            });
+            const counter = new ROSLIB.Message({
+                data : count_.toString()
+            });
+             // Example function to send command to ROS2 node
+             console.log("Sending command", command, "with timestamp", timestamp, "message count", count_);
+            Gobutton.publish(forward);
+            timeStampMsg.publish(time);
+            msgCount.publish(counter);
+        }
+
+        function fetchTimeSendToROS(command){
+            fetch('http://localhost:5000/timestamp')
+            .then(response => response.json())
+            // here publish data to ROS2 node
+            .then(data => publishToROS(command, data.timestamp))
+            .catch(error => console.error('Error:', error));
+        }
+         // Expose fetchTimeSendToROS to the global scope
+        window.fetchTimeSendToROS = fetchTimeSendToROS;
+        })();
+
+    </script> if necessary
+    <head>
+        <title>Control UI</title>
+        <style>
+            body, html {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+
+            #forwardButton {
+                height: 25%;
+                width: 60%;
+                background-color:darkslateblue;
+                color: wheat;
+                position: fixed;
+                top: 0;
+                align-self: center;
+            }
+
+            #stopButton {
+                height: 15%;
+                width: 65%;
+                background-color: firebrick;
+                color: white;
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                
+            }
+            #leftButton, #rightButton {
+                background-color:rgb(76, 63, 161);
+                color: wheat;
+                width: 20%;
+                height: 85%;
+                position: fixed;
+                top: 0%;
+            }
+            #leftButton {
+                left: 0;
+            }
+            #rightButton {
+                right: 0;
+            }
+            button {
+            font-size: 44px;
+            }
+
+            #messageDisplay {
+            position: fixed;
+            right: 0;
+            top: 85%;
+            width: 35%;
+            height: 15%;
+            background-color: black;
+            color:lime;
+            font-size: 24px;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 2px solid greenyellow; 
+            overflow-y: auto; 
+            }
+
+            #videoStream {
+                flex-grow: 1;
+                margin: auto;
+                width: 60%; /* Adjust as per the aspect ratio of your video stream */
+                background-color: black; /* Placeholder color */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <button id="forwardButton" onclick = "fetchTimeSendToROS('forward')">Vooruit</button>
+        <div id="videoStream">Video Stream Goes Here</div>
+        <div id="messageDisplay">Status </div>
+        <button id="leftButton" onclick = "fetchTimeSendToROS('left')">Links</button>
+        <button id="rightButton" onclick = "fetchTimeSendToROS('right')">Rechts</button>
+        <button id="stopButton" onclick = "fetchTimeSendToROS('stop')">Stop</button>
+    </body>
+    
+</html>
