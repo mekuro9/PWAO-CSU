@@ -77,6 +77,25 @@
         window.fetchTimeSendToROS = fetchTimeSendToROS;
         })();
 
+    var listener = new ROSLIB.Topic({
+    ros : ros,
+    name : 'out/compressed',
+    messageType : 'sensor_msgs/CompressedImage'
+  });
+  
+  //Subscribing to a image topic for the sake of it
+   var empty_listener = new ROSLIB.Topic({
+    ros : ros,
+    name : '/image',
+    messageType : 'sensor_msgs/Image'
+  });
+  
+  listener.subscribe(function(message) {
+    document.getElementById('videoStream').src = "data:image/png;base64," + message.data;
+  });
+  empty_listener.subscribe(function(message){
+  });
+
     </script> if necessary
     <head>
         <title>Control UI</title>
@@ -156,7 +175,7 @@
     </head>
     <body>
         <button id="forwardButton" onclick = "fetchTimeSendToROS('forward')">Vooruit</button>
-        <div id="videoStream">Video Stream Goes Here</div>
+        <img id ="videoStream">Video Stream Goes Here</div>
         <div id="messageDisplay">Status </div>
         <button id="leftButton" onclick = "fetchTimeSendToROS('left')">Links</button>
         <button id="rightButton" onclick = "fetchTimeSendToROS('right')">Rechts</button>
