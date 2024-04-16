@@ -9,7 +9,7 @@ y = sy.symbols('y')
 z = sy.symbols('z')
 R = np.array([[[[sy.cos(t),0,sy.sin(-t),0],
                [0,1,0,0],
-               [-sy.sin(t),0,sy.cos('t'),0],
+               [-sy.sin(t),0,sy.cos(t),0],
                [0,0,0,1]]]])
 T = np.array([[[[1,0,0,0],[0,1,0,0],[0,0,1,-10],[0,0,0,1]]]])
 P = np.array([[[[x],[y],[0],[1]]]])
@@ -18,6 +18,18 @@ P_ = np.matmul(M,P)
 print(M)
 print("\n")
 print(P_)
+
+R_new = np.array([[[[np.cos(0),0,np.sin(10),0],
+               [0,1,0,0],
+               [-np.sin(10),0,np.cos(10),0],
+               [0,0,0,1]]]])
+T_new = np.array([[[[1,0,0,0],[0,1,0,0],[0,0,1,-0.1],[0,0,0,1]]]])
+P_new = np.array([[[[x],[y],[0],[1]]]])
+M_new = np.matmul(R_new,T_new)
+P_new = np.matmul(M_new,P_new)
+print(M_new)
+print("\n")
+print(P_new)
 # 1. convert to cartesian
 # 2. Apply transformation matrix
 # 3. Projection. normalize the 3d coordinates
