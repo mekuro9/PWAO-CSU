@@ -16,24 +16,20 @@
             url: 'ws://' + host + ':9090'
         });
 
-
-        ros.on('connection',function(){
+        ros.on('connection', function() {
             console.log('Connected to websocket server');
         });
 
-        ros.on('error', function(error){
+        ros.on('error', function(error) {
             console.log('Error connecting to websocket server: ', error);
         });
 
-        ros.on('close', function(){
+        ros.on('close', function() {
             console.log('Connection to websocket server closed.');
         });
 
-
-        // Publishing to a topic
-        // Here lets publish a string 'Go'
-
-        const Gobutton = new ROSLIB.Topic({
+        // Topics for ROS communication
+        const GoButton = new ROSLIB.Topic({
             ros : ros,
             name : '/webinput/command',
             messageType: 'std_msgs/String'
@@ -52,82 +48,59 @@
         });
 
         (function() {
-        // counter of message
-        let count_ = 0;
+            let count_ = 0;
+            let currentInterval = 3000;
+            let intervalId;
 
-        function publishToROS(command, timestamp){
-            count_++;
+            function publishToROS(command, timestamp) {
+                count_++;
+                const forward = new ROSLIB.Message({ data : command });
+                const time = new ROSLIB.Message({ data : timestamp });
+                const counter = new ROSLIB.Message({ data : count_.toString() });
 
-            const forward = new ROSLIB.Message({
-                data : command
-            });
-            const time = new ROSLIB.Message({
-                data : timestamp
-            });
-            const counter = new ROSLIB.Message({
-                data : count_.toString()
-            });
-             // Example function to send command to ROS2 node
-             console.log("Sending command", command, "with timestamp", timestamp, "message count", count_);
-            Gobutton.publish(forward);
-            timeStampMsg.publish(time);
-            msgCount.publish(counter);
-        }
-
-        function fetchTimeSendToROS(command){
-                // Get the current host from the window location
-            var host = window.location.hostname;
-
-            // Construct the URL to fetch the timestamp from the Flask server
-            var url = 'http://' + host + ':5000/timestamp';
-
-            fetch(url)
-            .then(response => response.json())
-            .then(data => publishToROS(command, data.timestamp))
-            .catch(error => console.error('Error:', error));
+                console.log("Sending command", command, "with timestamp", timestamp, "message count", count_);
+                GoButton.publish(forward);
+                timeStampMsg.publish(time);
+                msgCount.publish(counter);
             }
 
-            // Expose fetchTimeSendToROS to the global scope
-            window.fetchTimeSendToROS = fetchTimeSendToROS;
+            function fetchTimeSendToROS(command) {
+                var host = window.location.hostname;
+                var url = 'http://' + host + ':5000/timestamp';
+
+                fetch(url)
+                .then(response => response.json())
+                .then(data => publishToROS(command, data.timestamp))
+                .catch(error => console.error('Error:', error));
+            }
+
+            function startInterval(frequency) {
+                clearInterval(intervalId);
+                intervalId = setInterval(() => {
+                    fetchTimeSendToROS("Go");
+                }, frequency);
+            }
+
+            // Frequency changes
+            const frequencies = [3000, 2000, 1000, 500, 300, 100]; // milliseconds
+            let index = 0;
+
+            function changeFrequency() {
+                if (index < frequencies.length) {
+                    currentInterval = frequencies[index++];
+                    startInterval(currentInterval);
+                    console.log(`Frequency set to every ${currentInterval} milliseconds.`);
+                    setTimeout(changeFrequency, 60000); // Change frequency every minute
+                } else {
+                    clearInterval(intervalId);
+                    console.log("Completed all frequency changes.");
+                }
+            }
+
+            // Start the first frequency change immediately
+            changeFrequency();
         })();
 
-    var listener = new ROSLIB.Topic({
-    ros : ros,
-    name : '/oak/rgb/image_raw/compressed',
-    messageType : 'sensor_msgs/CompressedImage'
-  });
-  
-  //Subscribing to a image topic for the sake of it
-   var empty_listener = new ROSLIB.Topic({
-    ros : ros,
-    name : '/oak/rgb/image_raw',
-    messageType : 'sensor_msgs/Image'
-  });
-
-  let totalBytes = 0;
-  let startTime = Date.now();
-  listener.subscribe(function(message) {
-    var img = new Image();
-    img.onload = function() {
-        var canvas = document.createElement('canvas');
-        var ctx = canvas.getContext('2d');
-        canvas.width = img.width / 2; // Reduce size by half
-        canvas.height = img.height / 2;
-        ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
-        document.getElementById('videoStream').src = canvas.toDataURL('image/jpeg', 0.5); // Reduce quality to 50%
-    };
-    img.src = "data:image/png;base64," + message.data;
-    let data = atob(message.data); // Decode base64
-    totalBytes += data.length; // Length in bytes
-
-    let currentTime = Date.now();
-    let elapsedSeconds = (currentTime - startTime) / 1000; // Convert ms to seconds
-    let throughput = totalBytes / elapsedSeconds; // Bytes per second
-
-    console.log(`Current Throughput: ${throughput} Bytes/sec`);
-  });
-  empty_listener.subscribe(function(message){
-  });
 
     </script> if necessary
     <head>
@@ -207,12 +180,12 @@
         </style>
     </head>
     <body>
-        <button id="forwardButton" onclick = "fetchTimeSendToROS('forward')">Vooruit</button>
+        <button id="forwardButton">Vooruit</button>
         <img id ="videoStream">Video Stream Goes Here</div>
         <div id="messageDisplay">Status </div>
-        <button id="leftButton" onclick = "fetchTimeSendToROS('left')">Links</button>
-        <button id="rightButton" onclick = "fetchTimeSendToROS('right')">Rechts</button>
-        <button id="stopButton" onclick = "fetchTimeSendToROS('stop')">Stop</button>
+        <button id="leftButton">Links</button>
+        <button id="rightButton">Rechts</button>
+        <button id="stopButton">Stop</button>
     </body>
     
 </html>

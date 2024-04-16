@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    return render_template('rtt_msg.html')
 
 @app.route('/timestamp', methods=['GET'])
 def get_timestamp():

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/eventemitter2@6.4.9/lib/eventemitter2.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/roslib@1/build/roslib.min.js"></script>
+    <script type="text/javascript" type="text/javascript">
+        // Connecting to ROS2 
+        //var ros = new ROSLIB.Ros({ url : 'ws://localhost:9090'});
+        // Get the current host from the window location
+        var host = window.location.hostname;
+
+        // Create a new ROS connection using the host address and the specific port
+        var ros = new ROSLIB.Ros({
+            url: 'ws://' + host + ':9090'
+        });
+
+
+        ros.on('connection',function(){
+            console.log('Connected to websocket server');
+        });
+
+        ros.on('error', function(error){
+            console.log('Error connecting to websocket server: ', error);
+        });
+
+        ros.on('close', function(){
+            console.log('Connection to websocket server closed.');
+        });
+
+
+        // Publishing to a topic
+        var listener = new ROSLIB.Topic({
+            ros: ros,
+            name: 'data_topic',
+            messageType: 'std_msgs/String'
+        });
+
+        listener.subscribe(function(message) {
+        const receiveTime = Date.now(); // Time received in milliseconds since the epoch
+        const parts = message.data.split(' '); // Split the message to extract data
+        const count = parts[0];
+        const dataSize = parts[1].length;
+        const sentTime = parseInt(parts[2]) / 1e6; // Convert nanoseconds to milliseconds
+        const latency = receiveTime - sentTime; // Calculate latency in milliseconds
+        console.log(`Received message ${count}: Size ${dataSize} bytes. Sent at ${sentTime} ms, received at ${receiveTime} ms, latency: ${latency} ms`);
+    });
+    </script>
+</head>
+<body>
+    <h1>ROSbridge Web Client</h1>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/eventemitter2@6.4.9/lib/eventemitter2.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/roslib@1/build/roslib.min.js"></script>
+    <script type="text/javascript">
+        var host = window.location.hostname;
+        var ros = new ROSLIB.Ros({
+            url: 'ws://' + host + ':9090'
+        });
+
+        ros.on('connection', function() {
+            console.log('Connected to websocket server.');
+        });
+
+        ros.on('error', function(error) {
+            console.log('Error connecting to websocket server: ', error);
+        });
+
+        ros.on('close', function() {
+            console.log('Connection to websocket server closed.');
+        });
+
+        const msgCount = new ROSLIB.Topic({
+            ros : ros,
+            name : '/webinput/counter',
+            messageType: 'std_msgs/String'
+        });
+
+        const echoListener = new ROSLIB.Topic({
+            ros: ros,
+            name: '/echo_topic',
+            messageType: 'std_msgs/String'
+        });
+
+        echoListener.subscribe(function(message) {
+            const receiveTime = new Date().getTime() / 1000;  // Time in seconds when message is received
+            console.log(`Received echo: ${message.data} at ${receiveTime}`);
+        });
+
+        let count_ = 0;
+        let intervalId;
+
+        function publishToROS() {
+            count_++;
+            const sendTime = new Date().getTime() / 1000; // Timestamp right before sending
+            const counter = new ROSLIB.Message({
+                data : count_.toString()
+            });
+
+            console.log(`Sending count: ${count_} at ${sendTime}`);
+            msgCount.publish(counter);
+
+            if (count_ >= (5 * 60 / 0.3)) { // Stop after 5 minutes
+                clearInterval(intervalId);
+                console.log("Completed sending messages.");
+            }
+        }
+
+        function startSendingMessages() {
+            intervalId = setInterval(publishToROS, 300); // Send message every 0.3 seconds
+        }
+
+        window.onload = function() {
+            startSendingMessages();
+        };
+    </script>
+</head>
+<body>
+    <h1>ROSbridge Web Client</h1>
+</body>
+</html>
+
