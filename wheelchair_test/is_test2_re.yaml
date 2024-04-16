@@ -1,0 +1,17 @@
+systems:
+  ros2: { type: ros2 }
+  websocket: { type: websocket_server, security: none, port: 9090, types-from: ros2 }
+  
+routes:
+  websocket_to_ros2: { from: websocket, to: ros2 }
+  ros2_to_websocket: { from: ros2, to: websocket }
+  
+topics:
+  /data_topic:
+    type: std_msgs/String
+    route: ros2_to_websocket
+    ros2: { qos: {
+        history: { kind: KEEP_LAST, depth: 5 },
+      	reliability: RELIABLE,
+      	durability: VOLATILE
+      }}
