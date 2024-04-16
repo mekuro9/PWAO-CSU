@@ -20,13 +20,20 @@ add_executable(rtt_message src/rtt_message.cpp)
 ament_target_dependencies(rtt_test rclcpp std_msgs)
 ament_target_dependencies(rtt_message rclcpp std_msgs)
 
-target_include_directories(rtt_test PUBLIC
-  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
-  $<INSTALL_INTERFACE:include>)
+add_executable(is_test src/is_test.cpp)
+add_executable(is_message src/is_message.cpp)
+ament_target_dependencies(is_test rclcpp std_msgs)
+ament_target_dependencies(is_message rclcpp std_msgs)
+
 target_compile_features(rtt_test PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 target_compile_features(rtt_message PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+target_compile_features(is_test PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+target_compile_features(is_message PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+
 install(TARGETS rtt_test
   rtt_message
+  is_test
+  is_message
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
