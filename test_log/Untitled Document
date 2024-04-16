@@ -1,0 +1,15 @@
+# Source ROS and run ROS package in a new terminal
+gnome-terminal -- /bin/bash -c 'source /opt/ros/humble/setup.bash; 
+cd /home/moro/humble_ws;
+colcon build --packages-select sequence_controller;
+source install/local_setup.bash;
+echo "Launching ROS Package..."; 
+script -c "ros2 run sequence_controller latency_test" /home/moro/test_log/latency_test.txt;
+exec /bin/bash'
+
+# Source micro-ros and run depth ai in a new terminal
+gnome-terminal -- /bin/bash -c 'source /opt/ros/humble/setup.bash; 
+cd /home/moro/humble_ws;
+source install/local_setup.bash;
+ros2 launch depthai_ros_driver camera.launch.py;
+exec /bin/bash'
