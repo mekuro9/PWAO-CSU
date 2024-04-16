@@ -105,7 +105,7 @@ private:
                 }
                 state = 2;
                 RCLCPP_INFO(this->get_logger(), "I am in Right: '%s'", std::to_string(state));
-                turn += 1*rotation_step;
+                turn += -1*rotation_step; //+
             break;
             case WheelchairState::Stopped:
                 if (is_forward_timer_active_) {
@@ -124,7 +124,7 @@ private:
                 }
                 state = 2;
                 RCLCPP_INFO(this->get_logger(), "I am in Left: '%s'", std::to_string(state));
-                turn += -1*rotation_step;
+                turn += +1*rotation_step;//-
             break;
             
         }

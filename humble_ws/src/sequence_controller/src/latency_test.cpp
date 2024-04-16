@@ -20,7 +20,7 @@ public:
       "/webinput/counter", 10, std::bind(&LatencyTest::count_callback, this, _1));
   }
 
-private:
+private: 
   void webinput_callback(const std_msgs::msg::String & msg) const
   {
     //RCLCPP_INFO(this->get_logger(), "Command: '%s'", msg.data.c_str());
