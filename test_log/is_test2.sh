@@ -6,10 +6,12 @@ echo "Starting Flask Server...";
 flask --app latency_test run --host 0.0.0.0; 
 exec /bin/bash'
 
-# Source ROS and run ROSBridge server in a new terminal
-gnome-terminal -- /bin/bash -c 'source /opt/ros/humble/setup.bash; 
-echo "Starting ROSBridge Server..."; 
-ros2 launch rosbridge_server rosbridge_websocket_launch.xml; 
+# Source ROS and run integration serive server in a new terminal
+gnome-terminal -- /bin/bash -c 'source /opt/ros/humble/setup.bash;
+cd /home/cafelatte/is-workspace;
+source install/local_setup.bash
+echo "Starting integration service Server..."; 
+integration-service src/Integration-Service/wheelchair_test/is_test2_re.yaml; 
 exec /bin/bash'
 
 # Source ROS and run ROS package in a new terminal
@@ -18,7 +20,7 @@ cd /home/cafelatte/humble_ws;
 colcon build --packages-select test_package;
 source install/local_setup.bash;
 echo "Launching ROS Package..."; 
-ros2 run test_package rtt_message;
+ros2 run test_package is_message;
 exec /bin/bash'
 
 
