@@ -1,0 +1,8 @@
+Rosbridge relaible publisher and subscriber
+message frequency is 3.3 hz or every 0.3s
+Round trip latency test
+
+Packet loss was 0
+
+
+For stress test sqrt worker count is 4
