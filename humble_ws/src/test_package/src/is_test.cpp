@@ -14,7 +14,7 @@ class EchoNode : public rclcpp::Node
 {
 public:
     EchoNode() : Node("echo_node")
-    {
+    {   
         publisher_ = this->create_publisher<std_msgs::msg::String>("echo_topic", 10);
         subscription_ = this->create_subscription<std_msgs::msg::String>(
             "webinput/counter", 10, std::bind(&EchoNode::webinput_callback, this, _1)); 

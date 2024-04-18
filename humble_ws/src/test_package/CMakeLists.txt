@@ -14,6 +14,7 @@ find_package(ament_cmake REQUIRED)
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(message_filters REQUIRED)
 
 add_executable(rtt_test src/rtt_test.cpp)
 add_executable(rtt_message src/rtt_message.cpp)
@@ -25,15 +26,20 @@ add_executable(is_message src/is_message.cpp)
 ament_target_dependencies(is_test rclcpp std_msgs)
 ament_target_dependencies(is_message rclcpp std_msgs)
 
+add_executable(test_sync src/test_sync.cpp)
+ament_target_dependencies(test_sync rclcpp std_msgs message_filters)
+
 target_compile_features(rtt_test PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 target_compile_features(rtt_message PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 target_compile_features(is_test PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 target_compile_features(is_message PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+target_compile_features(test_sync PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 
 install(TARGETS rtt_test
   rtt_message
   is_test
   is_message
+  test_sync
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
