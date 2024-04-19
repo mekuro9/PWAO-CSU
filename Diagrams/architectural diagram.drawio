@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-19T17:39:28.818Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="M1juuC-2vdXPP5ZmHSqm" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-19T17:39:34.589Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="ydYtQPWleRfy3iPBdhFs" version="24.2.5" type="github">
   <diagram name="Page-1" id="5wNfrocpncal_ENUbVDi">
     <mxGraphModel dx="717" dy="383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
         <mxCell id="nIHRb_h8EGxtnhW7rng_-5" value="Lidar + Camera Driver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nIHRb_h8EGxtnhW7rng_-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nIHRb_h8EGxtnhW7rng_-6" target="nIHRb_h8EGxtnhW7rng_-2">
+        <mxCell id="nIHRb_h8EGxtnhW7rng_-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="nIHRb_h8EGxtnhW7rng_-6" target="nIHRb_h8EGxtnhW7rng_-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nIHRb_h8EGxtnhW7rng_-6" value="IMU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
