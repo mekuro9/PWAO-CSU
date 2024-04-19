@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-19T18:04:51.990Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="LbAKXJ5U4bUwlDGb86Et" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-19T18:06:55.733Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="AcIQZIkNzMydKqvkKg6a" version="24.2.5" type="github">
   <diagram name="Page-1" id="5wNfrocpncal_ENUbVDi">
     <mxGraphModel dx="989" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -82,10 +82,29 @@
         <mxCell id="nIHRb_h8EGxtnhW7rng_-29" value="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: &#39;Droid Sans Mono&#39;, &#39;monospace&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;gold_palette&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; [&lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#eeb127&#39;&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;,  &lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;# Purple&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;                   &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#eaa812&#39;&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;,  &lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;# Cyan&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;                   &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#d39710&#39;&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;,  &lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;# Green&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;                   &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#bd870e&#39;&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;,  &lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;# Light blue&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;                   &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#ad7c0d&#39;&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;,  &lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;# Dark cyan&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;                   &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#9e710c&#39;&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;                   &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#976c0b&#39;&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;                   &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#8f670b&#39;&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;                   &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#5a4107&#39;&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;]  &lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;# Light green&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="425" y="530" width="400" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="nIHRb_h8EGxtnhW7rng_-30" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+        <mxCell id="nIHRb_h8EGxtnhW7rng_-30" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;curved=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="480" as="sourcePoint" />
-            <mxPoint x="120" y="60" as="targetPoint" />
+            <mxPoint x="110" y="460" as="sourcePoint" />
+            <mxPoint x="130" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="400" />
+              <mxPoint x="140" y="330" />
+              <mxPoint x="90" y="220" />
+              <mxPoint x="140" y="150" />
+              <mxPoint x="140" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nIHRb_h8EGxtnhW7rng_-33" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="470" as="sourcePoint" />
+            <mxPoint x="340" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nIHRb_h8EGxtnhW7rng_-34" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="470" as="sourcePoint" />
+            <mxPoint x="600" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
