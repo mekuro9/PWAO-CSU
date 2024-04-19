@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-19T18:41:40.737Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="dfoAcZ4vy2buV6G7M90W" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-19T18:42:12.856Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="nW9fdbhAE1kUHjWAUSLI" version="24.2.5" type="github">
   <diagram name="Page-1" id="5wNfrocpncal_ENUbVDi">
     <mxGraphModel dx="1839" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nIHRb_h8EGxtnhW7rng_-42" value="&lt;p style=&quot;line-height: 120%;&quot; align=&quot;right&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#deddda;shadow=1;gradientColor=#f6f5f4;gradientDirection=east;" vertex="1" parent="1">
-          <mxGeometry x="30" y="165" width="335" height="300" as="geometry" />
+          <mxGeometry x="30" y="165" width="335" height="295" as="geometry" />
         </mxCell>
         <mxCell id="nIHRb_h8EGxtnhW7rng_-40" value="&lt;p style=&quot;line-height: 120%;&quot; align=&quot;right&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f6f5f4;gradientColor=#ffffff;gradientDirection=east;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="430.5" y="165" width="149.5" height="295" as="geometry" />
@@ -110,10 +110,10 @@
           <mxGeometry x="135" y="130" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nIHRb_h8EGxtnhW7rng_-41" value="Teensy" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="443" y="430" width="125" height="30" as="geometry" />
+          <mxGeometry x="440" y="440" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nIHRb_h8EGxtnhW7rng_-44" value="Lattepanda 3 Delta" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="150" y="435" width="125" height="30" as="geometry" />
+          <mxGeometry x="135" y="440" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nIHRb_h8EGxtnhW7rng_-45" value="Network" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="220" width="60" height="30" as="geometry" />
