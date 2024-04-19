@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-19T12:38:03.650Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="Sid6BxbSAM9h1RzxiA6y" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-19T12:42:22.232Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="3VMm3OqMsXF0o90UFTw8" version="24.2.5" type="github">
   <diagram name="Page-1" id="8DEFcwSPCw7NuKQRAQb2">
     <mxGraphModel dx="1434" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,13 +7,21 @@
         <mxCell id="vSKpECAHf8IjDQS162QX-3" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="50" width="310" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="vSKpECAHf8IjDQS162QX-4" value="Send control commands" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vSKpECAHf8IjDQS162QX-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="vSKpECAHf8IjDQS162QX-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vSKpECAHf8IjDQS162QX-4" value="Recieve control commands" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="364" y="280" width="122.5" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="vSKpECAHf8IjDQS162QX-6" value="Send video stream" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vSKpECAHf8IjDQS162QX-6" value="Recieve video stream" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="364" y="80" width="122.5" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="vSKpECAHf8IjDQS162QX-9" value="Receive instructions" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vSKpECAHf8IjDQS162QX-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="vSKpECAHf8IjDQS162QX-9" target="vSKpECAHf8IjDQS162QX-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vSKpECAHf8IjDQS162QX-9" value="Send instructions" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="364" y="180" width="122.5" height="65" as="geometry" />
         </mxCell>
         <mxCell id="vSKpECAHf8IjDQS162QX-14" value="View and modify Documentation" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -29,7 +37,7 @@
           <mxGeometry y="50" width="105.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vSKpECAHf8IjDQS162QX-16" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="131.38" y="250" width="105.75" height="80" as="geometry" />
+          <mxGeometry x="110" y="260" width="105.75" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vSKpECAHf8IjDQS162QX-7" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.archimate3.actor;" vertex="1" parent="vSKpECAHf8IjDQS162QX-16">
           <mxGeometry x="39.629999999999995" width="26.5" height="50" as="geometry" />
@@ -38,13 +46,18 @@
           <mxGeometry y="50" width="105.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vSKpECAHf8IjDQS162QX-18" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="130" y="110" width="105.75" height="80" as="geometry" />
+          <mxGeometry x="100" y="120" width="105.75" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vSKpECAHf8IjDQS162QX-1" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.archimate3.actor;" vertex="1" parent="vSKpECAHf8IjDQS162QX-18">
           <mxGeometry x="39.620000000000005" width="26.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="vSKpECAHf8IjDQS162QX-11" value="User Interface Device" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vSKpECAHf8IjDQS162QX-18">
           <mxGeometry y="50" width="105.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vSKpECAHf8IjDQS162QX-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" target="vSKpECAHf8IjDQS162QX-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="140" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
