@@ -1,14 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2024-04-19T17:48:47.899Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="2mp9_6o1prQnAcBvFeO6" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-19T17:50:11.573Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="ZGrgsalotqjQX29kqw8g" version="24.2.5" type="github">
   <diagram name="Page-1" id="5wNfrocpncal_ENUbVDi">
     <mxGraphModel dx="717" dy="383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="nIHRb_h8EGxtnhW7rng_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="nIHRb_h8EGxtnhW7rng_-20" target="nIHRb_h8EGxtnhW7rng_-6">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="665" y="270" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="nIHRb_h8EGxtnhW7rng_-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="nIHRb_h8EGxtnhW7rng_-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="620" y="235" as="targetPoint" />
@@ -25,11 +20,6 @@
         </mxCell>
         <mxCell id="nIHRb_h8EGxtnhW7rng_-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="nIHRb_h8EGxtnhW7rng_-5" target="nIHRb_h8EGxtnhW7rng_-3">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nIHRb_h8EGxtnhW7rng_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;strokeWidth=2;" edge="1" parent="1" source="nIHRb_h8EGxtnhW7rng_-5" target="nIHRb_h8EGxtnhW7rng_-20">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="665" y="270" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="nIHRb_h8EGxtnhW7rng_-5" value="Lidar + Camera Driver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="360" width="120" height="60" as="geometry" />
@@ -69,6 +59,19 @@
         </mxCell>
         <mxCell id="nIHRb_h8EGxtnhW7rng_-21" value="D/A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="217.5" width="60" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nIHRb_h8EGxtnhW7rng_-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="nIHRb_h8EGxtnhW7rng_-23" target="nIHRb_h8EGxtnhW7rng_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nIHRb_h8EGxtnhW7rng_-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="nIHRb_h8EGxtnhW7rng_-23" target="nIHRb_h8EGxtnhW7rng_-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nIHRb_h8EGxtnhW7rng_-23" value="Sensors" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="300" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
