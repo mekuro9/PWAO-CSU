@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-04-19T18:17:19.651Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="1oZe_qMh5G3RxfiddjUB" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-19T18:21:33.816Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="x5ptxidrZKMrvZxkUmLp" version="24.2.5" type="github">
   <diagram name="Page-1" id="5wNfrocpncal_ENUbVDi">
-    <mxGraphModel dx="989" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1839" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="nIHRb_h8EGxtnhW7rng_-42" value="&lt;p style=&quot;line-height: 120%;&quot; align=&quot;right&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="160" width="255" height="300" as="geometry" />
+          <mxGeometry x="-10" y="165" width="335" height="300" as="geometry" />
         </mxCell>
         <mxCell id="nIHRb_h8EGxtnhW7rng_-40" value="&lt;p style=&quot;line-height: 120%;&quot; align=&quot;right&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350.5" y="165" width="150" height="300" as="geometry" />
@@ -22,7 +22,7 @@
           <mxGeometry x="190" y="205" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nIHRb_h8EGxtnhW7rng_-4" value="&lt;b&gt;&lt;font color=&quot;#ffffff&quot;&gt;Web server&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007e8a;glass=0;shadow=1;gradientColor=#00c8dc;gradientDirection=east;" vertex="1" parent="1">
-          <mxGeometry x="20" y="205" width="120" height="60" as="geometry" />
+          <mxGeometry y="205" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nIHRb_h8EGxtnhW7rng_-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="nIHRb_h8EGxtnhW7rng_-5" target="nIHRb_h8EGxtnhW7rng_-3">
           <mxGeometry relative="1" as="geometry" />
@@ -48,13 +48,13 @@
             <mxPoint x="370" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nIHRb_h8EGxtnhW7rng_-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1">
+        <mxCell id="nIHRb_h8EGxtnhW7rng_-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="nIHRb_h8EGxtnhW7rng_-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="140" y="220" as="sourcePoint" />
             <mxPoint x="190" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nIHRb_h8EGxtnhW7rng_-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1">
+        <mxCell id="nIHRb_h8EGxtnhW7rng_-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" target="nIHRb_h8EGxtnhW7rng_-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="190" y="250" as="sourcePoint" />
             <mxPoint x="140" y="250" as="targetPoint" />
@@ -83,10 +83,10 @@
           <mxGeometry x="640" y="300" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nIHRb_h8EGxtnhW7rng_-28" value="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: &#39;Droid Sans Mono&#39;, &#39;monospace&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;peacock_palette&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; [&lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#16eaff&#39;&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;,  &lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;# Purple&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;                   &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#00e6fc&#39;&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;,  &lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;# Cyan&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;                   &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#00d7ec&#39;&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;,  &lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;# Green&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;                   &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#00c8dc&#39;&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;,  &lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;# Light blue&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;                   &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#00b9cc&#39;&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;,  &lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;# Dark cyan&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;                   &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#0ab&#39;&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;                   &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#009cab&#39;&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;                   &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#007e8a&#39;&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;                   &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#005961&#39;&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;]  &lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;# Light green&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="510" width="400" height="210" as="geometry" />
+          <mxGeometry x="-120" y="560" width="400" height="210" as="geometry" />
         </mxCell>
         <mxCell id="nIHRb_h8EGxtnhW7rng_-29" value="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: &#39;Droid Sans Mono&#39;, &#39;monospace&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;gold_palette&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; [&lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#eeb127&#39;&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;,  &lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;# Purple&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;                   &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#eaa812&#39;&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;,  &lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;# Cyan&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;                   &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#d39710&#39;&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;,  &lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;# Green&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;                   &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#bd870e&#39;&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;,  &lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;# Light blue&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;                   &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#ad7c0d&#39;&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;,  &lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;# Dark cyan&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;                   &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#9e710c&#39;&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;                   &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#976c0b&#39;&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;                   &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#8f670b&#39;&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;                   &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;#5a4107&#39;&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;]  &lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;# Light green&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="425" y="530" width="400" height="210" as="geometry" />
+          <mxGeometry x="425" y="570" width="400" height="210" as="geometry" />
         </mxCell>
         <mxCell id="nIHRb_h8EGxtnhW7rng_-30" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;curved=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -124,6 +124,12 @@
         </mxCell>
         <mxCell id="nIHRb_h8EGxtnhW7rng_-41" value="Teensy" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="363" y="430" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nIHRb_h8EGxtnhW7rng_-44" value="Lattepanda 3 Delta" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="435" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nIHRb_h8EGxtnhW7rng_-45" value="Network" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="220" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
