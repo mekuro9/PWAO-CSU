@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-04-19T12:44:39.758Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="gOsBof2H1hCIBIrn676t" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-19T12:47:55.803Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="W9UOsFrmMyYqtfLG0BdA" version="24.2.5" type="github">
   <diagram name="Page-1" id="8DEFcwSPCw7NuKQRAQb2">
-    <mxGraphModel dx="1434" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2284" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="vSKpECAHf8IjDQS162QX-3" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#F1AD46;strokeColor=#F1AD46;" vertex="1" parent="1">
-          <mxGeometry x="276.25" y="50" width="283.75" height="450" as="geometry" />
+          <mxGeometry x="276.25" y="50" width="483.75" height="450" as="geometry" />
         </mxCell>
         <mxCell id="vSKpECAHf8IjDQS162QX-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="vSKpECAHf8IjDQS162QX-4">
           <mxGeometry relative="1" as="geometry">
@@ -15,7 +15,7 @@
         <mxCell id="vSKpECAHf8IjDQS162QX-4" value="Recieve control commands" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="364" y="280" width="122.5" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="vSKpECAHf8IjDQS162QX-6" value="Recieve video stream" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vSKpECAHf8IjDQS162QX-6" value="Receive environment information" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="364" y="80" width="122.5" height="65" as="geometry" />
         </mxCell>
         <mxCell id="vSKpECAHf8IjDQS162QX-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="vSKpECAHf8IjDQS162QX-9" target="vSKpECAHf8IjDQS162QX-11">
@@ -63,6 +63,24 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="210" y="140" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="vSKpECAHf8IjDQS162QX-26" value="Recieve video stream" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="80" width="122.5" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="vSKpECAHf8IjDQS162QX-27" value="Handle instructions" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="190" width="122.5" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="vSKpECAHf8IjDQS162QX-28" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="300" width="122.5" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="vSKpECAHf8IjDQS162QX-29" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=1 4;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="492.5" y="112" as="sourcePoint" />
+            <mxPoint x="592.5" y="112" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vSKpECAHf8IjDQS162QX-30" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="410" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
