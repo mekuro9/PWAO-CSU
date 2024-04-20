@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-20T11:07:07.093Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="jFSLw2FunYu7pJDJPkR9" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-20T11:10:08.331Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="gzonpbAZ-TR00qMmnjEZ" version="24.2.7" type="github">
   <diagram name="Page-1" id="KFsY79JGW7OIFpEs8pLU">
     <mxGraphModel dx="1366" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -32,6 +32,12 @@
         </mxCell>
         <mxCell id="GJ6rvG1zgliPvVbf_JiR-17" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;T: typename,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;U: typename&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="350" width="110" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="GJ6rvG1zgliPvVbf_JiR-19" value="&lt;div&gt;&amp;lt;&amp;lt;typedef&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;pid_controller_t&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="444" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GJ6rvG1zgliPvVbf_JiR-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="GJ6rvG1zgliPvVbf_JiR-7" target="GJ6rvG1zgliPvVbf_JiR-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
