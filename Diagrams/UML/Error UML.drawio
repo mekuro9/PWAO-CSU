@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-20T17:01:42.287Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="ubbfOoncXkjVJipX6aow" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-20T17:13:16.172Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="gNrApejRThWAsFxdZIj1" version="24.2.7" type="github">
   <diagram name="Page-1" id="a2CJgCR3ezrheYQTulwA">
     <mxGraphModel dx="474" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -13,36 +13,37 @@
         <mxCell id="87vAC8I_Fo4yDDX4ad99-3" value="&lt;div&gt;+ setup(): virtual bool&lt;/div&gt;&lt;div&gt;+ compute(): virtual void&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="87vAC8I_Fo4yDDX4ad99-1">
           <mxGeometry y="34" width="165" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="87vAC8I_Fo4yDDX4ad99-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="87vAC8I_Fo4yDDX4ad99-5" target="87vAC8I_Fo4yDDX4ad99-1">
+        <mxCell id="87vAC8I_Fo4yDDX4ad99-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="87vAC8I_Fo4yDDX4ad99-5" target="87vAC8I_Fo4yDDX4ad99-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="305" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="87vAC8I_Fo4yDDX4ad99-5" value="PIDController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="122.5" y="364" width="370" height="350" as="geometry" />
+        <mxCell id="87vAC8I_Fo4yDDX4ad99-5" value="ErrorHandler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="122.5" y="364" width="370" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="87vAC8I_Fo4yDDX4ad99-6" value="&lt;div&gt;- setpoint_: T*&lt;/div&gt;&lt;div&gt;- measurement_: T*&lt;/div&gt;&lt;div&gt;- controllerOutput_: U*&lt;/div&gt;&lt;div&gt;- kp :float&lt;/div&gt;&lt;div&gt;- ki: float&lt;/div&gt;&lt;div&gt;- kd : float&lt;/div&gt;&lt;div&gt;- error_ : T&lt;/div&gt;&lt;div&gt;- sampleTime: float&lt;/div&gt;&lt;div&gt;- output_max: U&lt;br&gt;&lt;/div&gt;&lt;div&gt;- output_min: U&lt;/div&gt;&lt;div&gt;- controllerType: pid_controller_t&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="87vAC8I_Fo4yDDX4ad99-5">
-          <mxGeometry y="30" width="370" height="170" as="geometry" />
+        <mxCell id="87vAC8I_Fo4yDDX4ad99-6" value="&lt;div&gt;- node_: Node*&lt;/div&gt;&lt;div&gt;-type_:&amp;nbsp; ErrorType&lt;/div&gt;&lt;div&gt;-message_: string&lt;/div&gt;&lt;div&gt;-errorMsg_ : string&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="87vAC8I_Fo4yDDX4ad99-5">
+          <mxGeometry y="30" width="370" height="80" as="geometry" />
         </mxCell>
         <mxCell id="87vAC8I_Fo4yDDX4ad99-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="87vAC8I_Fo4yDDX4ad99-5">
-          <mxGeometry y="200" width="370" height="8" as="geometry" />
+          <mxGeometry y="110" width="370" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="87vAC8I_Fo4yDDX4ad99-8" value="&lt;div&gt;+ PIDController(T*,T*,U*,float,float,float,pid_controller_t)&lt;/div&gt;&lt;div&gt;+ PIDController(T*,T*,U*,float, float,pid_controller_t)&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setup(): bool&lt;/div&gt;&lt;div&gt;+ compute(): void&lt;/div&gt;&lt;div&gt;+ setControllerType(pid_controller_t): void&lt;/div&gt;&lt;div&gt;+ setSampleTime(float): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setOutputLimits(U,U): bool&lt;/div&gt;&lt;div&gt;+ geterror(): T&lt;/div&gt;&lt;div&gt;- init(): bool &lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="87vAC8I_Fo4yDDX4ad99-5">
-          <mxGeometry y="208" width="370" height="142" as="geometry" />
+        <mxCell id="87vAC8I_Fo4yDDX4ad99-8" value="&lt;div&gt;+ ErrorHandler(Node*, ErrorType, string&amp;amp;)&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ logError(): void&lt;/div&gt;&lt;div&gt;+ getMessage() : string&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="87vAC8I_Fo4yDDX4ad99-5">
+          <mxGeometry y="118" width="370" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="87vAC8I_Fo4yDDX4ad99-9" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;T: typename,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;U: typename&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="350" width="110" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="87vAC8I_Fo4yDDX4ad99-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="87vAC8I_Fo4yDDX4ad99-6">
+        <mxCell id="87vAC8I_Fo4yDDX4ad99-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="87vAC8I_Fo4yDDX4ad99-6" target="87vAC8I_Fo4yDDX4ad99-15">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="620" y="479" as="targetPoint" />
+            <mxPoint x="560" y="440" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="87vAC8I_Fo4yDDX4ad99-12" value="-type_" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="530" y="480" width="90" height="30" as="geometry" />
+          <mxGeometry x="500" y="440" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="87vAC8I_Fo4yDDX4ad99-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt;&lt;/i&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ErrorType&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;NO_SENSOR_MESSAGE&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;INCORRECT_INPUT&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;COMMUNICATION_FAILURE&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="620" y="440" width="190" height="96" as="geometry" />
+          <mxGeometry x="590" y="383" width="190" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="87vAC8I_Fo4yDDX4ad99-16" value="-node_" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="290" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
