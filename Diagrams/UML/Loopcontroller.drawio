@@ -1,9 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2024-04-20T16:12:08.728Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="09ejT2BhtXOqZJp4oOzd" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-20T16:15:32.998Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="ED2UzgzsbiZ_ibq24PrI" version="24.2.7" type="github">
   <diagram name="Page-1" id="vFwo0hFjRwJ0brIeQsAi">
     <mxGraphModel dx="1434" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PVeV4i3x_uw7YTpKDgrW-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="PVeV4i3x_uw7YTpKDgrW-3" target="PVeV4i3x_uw7YTpKDgrW-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="PVeV4i3x_uw7YTpKDgrW-3" value="&lt;div&gt;Default&lt;/div&gt;&lt;div&gt;stop()&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="210" width="120" height="80" as="geometry" />
         </mxCell>
@@ -46,14 +53,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PVeV4i3x_uw7YTpKDgrW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="PVeV4i3x_uw7YTpKDgrW-11" target="PVeV4i3x_uw7YTpKDgrW-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="800" y="60" />
-              <mxPoint x="410" y="60" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="PVeV4i3x_uw7YTpKDgrW-11" value="&lt;div&gt;Turn&lt;/div&gt;&lt;div&gt;turn()&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="240" width="120" height="80" as="geometry" />
         </mxCell>
@@ -72,8 +71,11 @@
         <mxCell id="PVeV4i3x_uw7YTpKDgrW-20" value="abs(e) &amp;gt; 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="610" y="330" width="88" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PVeV4i3x_uw7YTpKDgrW-22" value="desired_motion_state = Stopped" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="560" y="30" width="220" height="30" as="geometry" />
+        <mxCell id="PVeV4i3x_uw7YTpKDgrW-26" value="&lt;div&gt;MoveFoward&lt;/div&gt;&lt;div&gt;goforward()&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="470" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PVeV4i3x_uw7YTpKDgrW-28" value="desired_motion_state = MoveForward" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="495" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
