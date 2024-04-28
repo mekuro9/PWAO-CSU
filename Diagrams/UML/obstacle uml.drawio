@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-28T15:22:58.061Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="lH9D_I5uc1mM21kjNpXJ" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-28T15:23:47.574Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="ADA8j8XKzb_YGAwoQ9TJ" version="24.2.7" type="github">
   <diagram name="Page-1" id="tyBKA0bGHe00-OdEZXyO">
     <mxGraphModel dx="1434" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -54,8 +54,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="180" y="330" />
-              <mxPoint x="370" y="330" />
-              <mxPoint x="370" y="214" />
+              <mxPoint x="371" y="330" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -67,7 +66,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gb5lMUTHjq_DXmy-1-ze-15" value="ErrorPublisher" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Gb5lMUTHjq_DXmy-1-ze-15" value="ObstacleDetector" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry y="500" width="370" height="210" as="geometry" />
         </mxCell>
         <mxCell id="Gb5lMUTHjq_DXmy-1-ze-16" value="&lt;div&gt;- topics_:std::vector&amp;lt;TopicData&amp;gt;&lt;br&gt;&lt;/div&gt;- topicSubscriptions_:std::vector&amp;lt;subscription&amp;lt;String&amp;gt;::SharedPtr&amp;gt;&lt;br&gt;&lt;div&gt;-timer_: TimerBase::SharedPtr&lt;br&gt;&lt;/div&gt;&lt;div&gt;-publisher_ : Publisher&amp;lt;string&amp;gt;::SharedPtr&lt;/div&gt;&lt;div&gt;-timeoutThreshold_ : const int&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Gb5lMUTHjq_DXmy-1-ze-15">
