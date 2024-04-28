@@ -1,16 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-04-28T15:30:17.663Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="DjCz5AWB5xqkzSJ8JCdi" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-28T15:38:20.448Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="oU7kCdTjq5vip3CJ5n3k" version="24.3.1" type="github">
   <diagram name="Page-1" id="tyBKA0bGHe00-OdEZXyO">
     <mxGraphModel dx="1434" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Gb5lMUTHjq_DXmy-1-ze-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="Gb5lMUTHjq_DXmy-1-ze-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="412" y="170" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Gb5lMUTHjq_DXmy-1-ze-2" value="rclcpp::Node" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="330" y="180" width="165" height="34" as="geometry" />
+          <mxGeometry x="102.5" y="320" width="165" height="34" as="geometry" />
         </mxCell>
         <mxCell id="Gb5lMUTHjq_DXmy-1-ze-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Gb5lMUTHjq_DXmy-1-ze-2" vertex="1">
           <mxGeometry y="26" width="165" height="8" as="geometry" />
@@ -24,45 +19,26 @@
         <mxCell id="Gb5lMUTHjq_DXmy-1-ze-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Gb5lMUTHjq_DXmy-1-ze-5" vertex="1">
           <mxGeometry y="80" width="370" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Gb5lMUTHjq_DXmy-1-ze-8" value="&lt;div&gt;+ LidarUtility(float*angles, float* distances)&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getScanDataInRange(float, float, int): vector&amp;lt;pair&amp;lt;float,float&amp;gt;&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ checkObstacleinFilteredData(vector&amp;lt;pair&amp;lt;float,float&amp;gt;&amp;gt;) : bool&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Gb5lMUTHjq_DXmy-1-ze-5" vertex="1">
+        <mxCell id="Gb5lMUTHjq_DXmy-1-ze-8" value="&lt;div&gt;+ LidarUtility(float*angles, float* distances)&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getScanDataInRange(float, float, int): vector&amp;lt;pair&amp;lt;float,float&amp;gt;&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ checkObstacleinFilteredData() : bool&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Gb5lMUTHjq_DXmy-1-ze-5" vertex="1">
           <mxGeometry y="88" width="370" height="62" as="geometry" />
         </mxCell>
         <mxCell id="Gb5lMUTHjq_DXmy-1-ze-11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt;&lt;/i&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ErrorType&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;NO_SENSOR_MESSAGE&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;INCORRECT_INPUT&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;COMMUNICATION_FAILURE&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="650" y="178" width="190" height="102" as="geometry" />
         </mxCell>
-        <mxCell id="Gb5lMUTHjq_DXmy-1-ze-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" parent="1" source="Gb5lMUTHjq_DXmy-1-ze-15" target="Gb5lMUTHjq_DXmy-1-ze-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="180" y="330" />
-              <mxPoint x="371" y="330" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Gb5lMUTHjq_DXmy-1-ze-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=open;endFill=0;" parent="1" source="Gb5lMUTHjq_DXmy-1-ze-15" target="Gb5lMUTHjq_DXmy-1-ze-19" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="115" y="350" />
-              <mxPoint x="115" y="350" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="qjejY537604e-5QMQ8SS-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="Gb5lMUTHjq_DXmy-1-ze-15" target="Gb5lMUTHjq_DXmy-1-ze-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gb5lMUTHjq_DXmy-1-ze-15" value="ObstacleDetector" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="500" width="370" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="Gb5lMUTHjq_DXmy-1-ze-16" value="&lt;div&gt;- topics_:std::vector&amp;lt;TopicData&amp;gt;&lt;br&gt;&lt;/div&gt;- topicSubscriptions_:std::vector&amp;lt;subscription&amp;lt;String&amp;gt;::SharedPtr&amp;gt;&lt;br&gt;&lt;div&gt;-timer_: TimerBase::SharedPtr&lt;br&gt;&lt;/div&gt;&lt;div&gt;-publisher_ : Publisher&amp;lt;string&amp;gt;::SharedPtr&lt;/div&gt;&lt;div&gt;-timeoutThreshold_ : const int&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Gb5lMUTHjq_DXmy-1-ze-15" vertex="1">
+        <mxCell id="Gb5lMUTHjq_DXmy-1-ze-16" value="- scanData_sub_:Subscription&amp;lt;sensor_msgs::Scan&amp;gt;::SharedPtr&lt;br&gt;&lt;div&gt;-publisher_ : Publisher&amp;lt;string&amp;gt;::SharedPtr&lt;/div&gt;&lt;div&gt;-scan_angle_[3240]:float&lt;/div&gt;&lt;div&gt;-scan_range_[3240]:float&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Gb5lMUTHjq_DXmy-1-ze-15" vertex="1">
           <mxGeometry y="30" width="370" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Gb5lMUTHjq_DXmy-1-ze-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Gb5lMUTHjq_DXmy-1-ze-15" vertex="1">
           <mxGeometry y="120" width="370" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Gb5lMUTHjq_DXmy-1-ze-18" value="&lt;div&gt;+ ErrorPublisher():Node(&quot;name&quot;)&lt;br&gt;&lt;/div&gt;&lt;div&gt;- initializeTopicData(): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;-setupSubscriptions(): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;-publish_error(): void&lt;/div&gt;&lt;div&gt;-timer_callback(): void&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Gb5lMUTHjq_DXmy-1-ze-15" vertex="1">
+        <mxCell id="Gb5lMUTHjq_DXmy-1-ze-18" value="&lt;div&gt;+ ObstacleDetector():Node(&quot;ObstacleDetector&quot;)&lt;br&gt;&lt;/div&gt;&lt;div&gt;- topic_callback():void&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Gb5lMUTHjq_DXmy-1-ze-15" vertex="1">
           <mxGeometry y="128" width="370" height="82" as="geometry" />
-        </mxCell>
-        <mxCell id="Gb5lMUTHjq_DXmy-1-ze-19" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;struct&amp;gt;&amp;gt;&lt;/i&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;TopicData&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ topicName: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+lastMessageTime: rclcpp::Time&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="20" y="180" width="190" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="Gb5lMUTHjq_DXmy-1-ze-20" value="-topics_" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="50" y="290" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gb5lMUTHjq_DXmy-1-ze-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;entryX=0.331;entryY=1.054;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Gb5lMUTHjq_DXmy-1-ze-15" target="Gb5lMUTHjq_DXmy-1-ze-8" edge="1">
           <mxGeometry relative="1" as="geometry">
