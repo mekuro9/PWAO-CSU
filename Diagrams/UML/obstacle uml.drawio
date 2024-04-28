@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-28T15:24:51.873Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="mJOtvutMOBzAAX-DwRP4" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-28T15:26:29.590Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="mMb8WnoTw1tOwAj-RVQD" version="24.3.1" type="github">
   <diagram name="Page-1" id="tyBKA0bGHe00-OdEZXyO">
     <mxGraphModel dx="1434" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -15,40 +15,20 @@
         <mxCell id="Gb5lMUTHjq_DXmy-1-ze-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Gb5lMUTHjq_DXmy-1-ze-2" vertex="1">
           <mxGeometry y="26" width="165" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Gb5lMUTHjq_DXmy-1-ze-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" parent="1" source="Gb5lMUTHjq_DXmy-1-ze-5" target="Gb5lMUTHjq_DXmy-1-ze-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="755" y="280" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Gb5lMUTHjq_DXmy-1-ze-5" value="LidarUitlity" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="405" y="380" width="370" height="170" as="geometry" />
+          <mxGeometry x="405" y="380" width="370" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="Gb5lMUTHjq_DXmy-1-ze-6" value="&lt;div&gt;- node_: Node*&lt;/div&gt;&lt;div&gt;-type_:&amp;nbsp; ErrorType&lt;/div&gt;&lt;div&gt;-message_: string&lt;/div&gt;&lt;div&gt;-errorMsg_ : string&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Gb5lMUTHjq_DXmy-1-ze-5" vertex="1">
-          <mxGeometry y="30" width="370" height="70" as="geometry" />
+        <mxCell id="Gb5lMUTHjq_DXmy-1-ze-6" value="&lt;div&gt;- scanAngles: float*&lt;/div&gt;&lt;div&gt;- scanDistance: float*&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Gb5lMUTHjq_DXmy-1-ze-5" vertex="1">
+          <mxGeometry y="30" width="370" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Gb5lMUTHjq_DXmy-1-ze-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Gb5lMUTHjq_DXmy-1-ze-5" vertex="1">
-          <mxGeometry y="100" width="370" height="8" as="geometry" />
+          <mxGeometry y="80" width="370" height="8" as="geometry" />
         </mxCell>
         <mxCell id="Gb5lMUTHjq_DXmy-1-ze-8" value="&lt;div&gt;+ ErrorHandler(Node*, ErrorType, string&amp;amp;)&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ logError(): void&lt;/div&gt;&lt;div&gt;+ getMessage() : string&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Gb5lMUTHjq_DXmy-1-ze-5" vertex="1">
-          <mxGeometry y="108" width="370" height="62" as="geometry" />
-        </mxCell>
-        <mxCell id="Gb5lMUTHjq_DXmy-1-ze-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;exitX=0.617;exitY=-0.008;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Gb5lMUTHjq_DXmy-1-ze-5" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="730" y="280" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="633" y="320" />
-              <mxPoint x="730" y="320" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Gb5lMUTHjq_DXmy-1-ze-10" value="-type_" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="630" y="320" width="90" height="30" as="geometry" />
+          <mxGeometry y="88" width="370" height="62" as="geometry" />
         </mxCell>
         <mxCell id="Gb5lMUTHjq_DXmy-1-ze-11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt;&lt;/i&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ErrorType&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;NO_SENSOR_MESSAGE&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;INCORRECT_INPUT&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;COMMUNICATION_FAILURE&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="650" y="178" width="190" height="102" as="geometry" />
-        </mxCell>
-        <mxCell id="Gb5lMUTHjq_DXmy-1-ze-12" value="-node_" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="405" y="260" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gb5lMUTHjq_DXmy-1-ze-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" parent="1" source="Gb5lMUTHjq_DXmy-1-ze-15" target="Gb5lMUTHjq_DXmy-1-ze-2" edge="1">
           <mxGeometry relative="1" as="geometry">
