@@ -1,0 +1,8 @@
+Test1: Latency and jitter between sending setpoint and recieving current setpoint
+
+Test2: Bigger dataset
+
+ Update frequency of sensor messages. ideal 100Hz but 50Hz for loop using sensor qos partly
+ 
+ Test3:  with timer for sensor messages and 1ms timeout, no delay in loop  560hz for reliable currentState and resetflag and angleError 282hz
+ 

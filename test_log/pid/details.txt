@@ -1,0 +1,5 @@
+Test1: Kp = 6, Ki = 0.0005, kd = 1 Wheelchair profile 5.2 (max_speed = 100);
+Test2: Kp = 5, ki = 0.005,  kd = 1 Wheelchair profile 5.2 (max_speed = 80);
+Test3: Kp = 6, ki = 0,  kd = 0.1 Wheelchair profile 5.2 (max_speed = 80);
+Test4: Kp = 5, ki = 0.0005,  kd = 2 Wheelchair profile 5.2 (max_speed = 80);
+Test5: Kp = 5, ki = 0, kd = 1 Wheelchair profile 4.2 (max_speed = 80);
