@@ -51,53 +51,59 @@
             messageType: 'std_msgs/String'
         });
 
-        (function() {
-        // counter of message
+document.addEventListener('DOMContentLoaded', function() {
+    (function() {
         let count_ = 0;
+        let intervalID = null; // Variable to store the interval ID
 
         function publishToROS(command, timestamp){
             count_++;
+            const forward = new ROSLIB.Message({data: command});
+            const time = new ROSLIB.Message({data: timestamp});
+            const counter = new ROSLIB.Message({data: count_.toString()});
 
-            const forward = new ROSLIB.Message({
-                data : command
-            });
-            const time = new ROSLIB.Message({
-                data : timestamp
-            });
-            const counter = new ROSLIB.Message({
-                data : count_.toString()
-            });
-             // Example function to send command to ROS2 node
-             console.log("Sending command", command, "with timestamp", timestamp, "message count", count_);
+            console.log("Sending command", command, "with timestamp", timestamp, "message count", count_);
             Gobutton.publish(forward);
             timeStampMsg.publish(time);
             msgCount.publish(counter);
         }
 
-       
-
         function fetchTimeSendToROS(command){
-                // Get the current host from the window location
             var host = window.location.hostname;
-
-            // Construct the URL to fetch the timestamp from the Flask server
             var url = 'http://' + host + ':5000/timestamp';
 
             fetch(url)
             .then(response => response.json())
             .then(data => publishToROS(command, data.timestamp))
             .catch(error => console.error('Error:', error));
+        }
+
+        function handleMouseEnter(direction) {
+            if (!intervalID) { // Start the interval only if it's not already running
+                intervalID = setInterval(() => {
+                    fetchTimeSendToROS(direction);
+                }, 50); // Adjust the interval time as needed
             }
+        }
 
-            // Expose fetchTimeSendToROS to the global scope
-            window.fetchTimeSendToROS = fetchTimeSendToROS;
-        })();
+        function resetAction() {
+            if (intervalID) {
+                clearInterval(intervalID); // Clear the interval when mouse leaves
+                intervalID = null;
+            }
+        }
 
-    var listener = new ROSLIB.Topic({
-    ros : ros,
-    name : '/obstacleStatus/CompressedImage', /*'/oak/rgb/image_raw/compressed',*/
-    messageType : 'sensor_msgs/CompressedImage'
-  });
+        window.fetchTimeSendToROS = fetchTimeSendToROS;
+        window.handleMouseEnter = handleMouseEnter;
+        window.resetAction = resetAction;
+    })();
+});
+
+        var listener = new ROSLIB.Topic({
+        ros : ros,
+        name : '/obstacleStatus/CompressedImage', /*'/oak/rgb/image_raw/compressed',*/
+        messageType : 'sensor_msgs/CompressedImage'
+        });
   
   //Subscribing to a image topic for the sake of it
   // var empty_listener = new ROSLIB.Topic({
@@ -106,30 +112,32 @@
   //  messageType : 'sensor_msgs/Image'
   //});
 
-  let totalBytes = 0;
-  let startTime = Date.now();
-  listener.subscribe(function(message) {
-    var img = new Image();
-    img.onload = function() {
-        var canvas = document.createElement('canvas');
-        var ctx = canvas.getContext('2d');
-        canvas.width = img.width; /// 2; // Reduce size by half
-        canvas.height = img.height;// / 2;
-        ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
-        document.getElementById('videoStream').src = canvas.toDataURL('image/jpeg'); // Reduce quality to 50%
-    };
-    img.src = "data:image/png;base64," + message.data;
-    let data = atob(message.data); // Decode base64
-    totalBytes += data.length; // Length in bytes
+        let totalBytes = 0;
+        let startTime = Date.now();
+        listener.subscribe(function(message) {
+            var img = new Image();
+            img.onload = function() {
+                var canvas = document.createElement('canvas');
+                var ctx = canvas.getContext('2d');
+                canvas.width = img.width; /// 2; // Reduce size by half
+                canvas.height = img.height;// / 2;
+                ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+                document.getElementById('videoStream').src = canvas.toDataURL('image/jpeg'); // Reduce quality to 50%
+         };
 
-    let currentTime = Date.now();
-    let elapsedSeconds = (currentTime - startTime) / 1000; // Convert ms to seconds
-    let throughput = totalBytes / elapsedSeconds; // Bytes per second
+        img.src = "data:image/png;base64," + message.data;
+        let data = atob(message.data); // Decode base64
+        totalBytes += data.length; // Length in bytes
 
-    console.log(`Current Throughput: ${throughput} Bytes/sec`);
-  });
-  empty_listener.subscribe(function(message){
-  });
+        let currentTime = Date.now();
+        let elapsedSeconds = (currentTime - startTime) / 1000; // Convert ms to seconds
+        let throughput = totalBytes / elapsedSeconds; // Bytes per second
+
+        console.log(`Current Throughput: ${throughput} Bytes/sec`);
+        });
+
+    empty_listener.subscribe(function(message){
+    });
 
     </script>
     <head>
@@ -209,11 +217,11 @@
         </style>
     </head>
     <body>
-        <button id="forwardButton" onclick = "fetchTimeSendToROS('forward')">Vooruit</button>
-        <div id="messageDisplay">Status </div>
-        <button id="leftButton" onclick = "fetchTimeSendToROS('left')">Links</button>
-        <button id="rightButton" onclick  = "fetchTimeSendToROS('right')">Rechts</button>
-        <button id="stopButton" onclick = "fetchTimeSendToROS('stop')">Stop</button>
+        <button id="forwardButton" onmouseenter="handleMouseEnter('forward')" onmouseleave="resetAction()">Vooruit</button>
+        <div id="messageDisplay">Status</div>
+        <button id="leftButton" onmouseenter="handleMouseEnter('left')" onmouseleave="resetAction()">Links</button>
+        <button id="rightButton" onmouseenter="handleMouseEnter('right')" onmouseleave="resetAction()">Rechts</button>
+        <button id="stopButton" onmouseenter="handleMouseEnter('stop')" onmouseleave="resetAction()">Stop</button>
         <img id ="videoStream">Video Stream Goes Here</div>
 
     </body>
