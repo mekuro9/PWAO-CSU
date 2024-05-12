@@ -13,6 +13,7 @@ find_package(ament_cmake REQUIRED)
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 add_executable(latency_test src/latency_test.cpp)
 ament_target_dependencies(latency_test rclcpp std_msgs)
@@ -20,13 +21,23 @@ ament_target_dependencies(latency_test rclcpp std_msgs)
 add_executable(sequence src/sequence_controller.cpp)
 ament_target_dependencies(sequence rclcpp std_msgs)
 
+add_executable(state src/state_controller.cpp)
+ament_target_dependencies(state rclcpp std_msgs geometry_msgs)
+
+add_executable(state2 src/state_controller_v2.cpp)
+ament_target_dependencies(state2 rclcpp std_msgs geometry_msgs)
+
+
 target_include_directories(latency_test PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
+  
 target_compile_features(latency_test PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 
 install(TARGETS latency_test
   sequence
+  state
+  state2
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
