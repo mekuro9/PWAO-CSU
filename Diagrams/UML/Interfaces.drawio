@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-21T02:25:23.019Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="3nSidAAj4iLEC1PvNRQn" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-21T02:26:41.735Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="eujQ7IIvXldWUtcSFVOS" version="24.4.4" type="github">
   <diagram name="Page-1" id="mmhT-Pex-2ySGfsCANb3">
-    <mxGraphModel dx="1874" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2097" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -154,12 +154,12 @@
           <mxGeometry x="165" y="725" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EqBaHVZNQgICD4WXDvI4-62" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="605" width="100" height="140" as="geometry" />
+          <mxGeometry x="-30" y="605" width="80" height="115" as="geometry" />
         </mxCell>
         <mxCell id="EqBaHVZNQgICD4WXDvI4-63" value="Teensy" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-60" y="575" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EqBaHVZNQgICD4WXDvI4-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="EqBaHVZNQgICD4WXDvI4-62">
+        <mxCell id="EqBaHVZNQgICD4WXDvI4-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EqBaHVZNQgICD4WXDvI4-74">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="140" y="700" as="sourcePoint" />
             <mxPoint x="140" y="640" as="targetPoint" />
@@ -176,6 +176,12 @@
         </mxCell>
         <mxCell id="EqBaHVZNQgICD4WXDvI4-71" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;SCL&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="675" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EqBaHVZNQgICD4WXDvI4-72" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;SCL0&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="675" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EqBaHVZNQgICD4WXDvI4-74" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;SDA0&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="630" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
