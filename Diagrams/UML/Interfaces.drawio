@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-21T01:52:42.069Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="GaAT6xsmAZkOG2PwUv6j" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-21T01:56:49.060Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="XyJiMd_DpdMavaZZXHtL" version="24.4.4" type="github">
   <diagram name="Page-1" id="mmhT-Pex-2ySGfsCANb3">
     <mxGraphModel dx="1062" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -118,6 +118,44 @@
         </mxCell>
         <mxCell id="EqBaHVZNQgICD4WXDvI4-32" value="DB9 Pin2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="530" y="710" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EqBaHVZNQgICD4WXDvI4-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.851;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EqBaHVZNQgICD4WXDvI4-16" target="EqBaHVZNQgICD4WXDvI4-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="790" />
+              <mxPoint x="251" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EqBaHVZNQgICD4WXDvI4-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.851;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.47;exitY=1.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="EqBaHVZNQgICD4WXDvI4-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="747" as="sourcePoint" />
+            <mxPoint x="215.5" y="740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="596" y="810" />
+              <mxPoint x="215" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EqBaHVZNQgICD4WXDvI4-35" value="Reference Voltage" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="370" y="770" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EqBaHVZNQgICD4WXDvI4-37" value="12V, 100mA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="365" y="800" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EqBaHVZNQgICD4WXDvI4-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.292;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.697;exitY=1.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="EqBaHVZNQgICD4WXDvI4-16" target="EqBaHVZNQgICD4WXDvI4-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="790" as="sourcePoint" />
+            <mxPoint x="179.5" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="628" y="860" />
+              <mxPoint x="178" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EqBaHVZNQgICD4WXDvI4-40" value="Ground" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="365" y="840" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
