@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-21T00:50:48.047Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="ItO9T3OyuXBCRAJ_V3sY" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-21T00:51:15.446Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="smJXiz0MCgmgFN246qnn" version="24.4.4" type="github">
   <diagram name="Page-1" id="mmhT-Pex-2ySGfsCANb3">
     <mxGraphModel dx="1062" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -15,6 +15,12 @@
         </mxCell>
         <mxCell id="EqBaHVZNQgICD4WXDvI4-5" value="Loop Controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="150" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EqBaHVZNQgICD4WXDvI4-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="180" width="180" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="EqBaHVZNQgICD4WXDvI4-8" value="Safety Switch" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="150" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
