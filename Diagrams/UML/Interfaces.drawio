@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-21T21:22:40.897Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="JV3O9H9tN_W1hNM914m5" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-21T21:26:24.274Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="0QzqFSvQbklbGyJCWsLW" version="24.4.4" type="github">
   <diagram name="Page-1" id="mmhT-Pex-2ySGfsCANb3">
     <mxGraphModel dx="1412" dy="273" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -212,6 +212,12 @@
             <mxPoint x="140" y="1000" as="sourcePoint" />
             <mxPoint x="218" y="1000" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OU8EpIYlkXX6cTPL9Aab-14" value="linearPWM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="960" width="40" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="OU8EpIYlkXX6cTPL9Aab-15" value="turnPWM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="990" width="40" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
