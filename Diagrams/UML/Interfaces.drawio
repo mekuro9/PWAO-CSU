@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-21T01:59:12.720Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="f-GZ8Kmhpbmk8m9b4P6r" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-21T01:59:26.578Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="FxA01IcOk5AT4_L-oHoj" version="24.4.4" type="github">
   <diagram name="Page-1" id="mmhT-Pex-2ySGfsCANb3">
     <mxGraphModel dx="1062" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -119,7 +119,10 @@
           <mxGeometry x="370" y="700" width="60" height="35" as="geometry" />
         </mxCell>
         <mxCell id="EqBaHVZNQgICD4WXDvI4-31" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;DB9 Pin1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="530" y="680" width="60" height="10" as="geometry" />
+          <mxGeometry x="530" y="670" width="60" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="EqBaHVZNQgICD4WXDvI4-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EqBaHVZNQgICD4WXDvI4-32" target="EqBaHVZNQgICD4WXDvI4-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EqBaHVZNQgICD4WXDvI4-32" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;DB9 Pin2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="530" y="712.5" width="60" height="10" as="geometry" />
