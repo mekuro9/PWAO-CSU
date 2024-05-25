@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-25T15:48:58.769Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="qu1HAtThZH4l20sJk-Aj" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-25T15:51:04.493Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="ekh2i9aKkpVrZx1uNpWO" version="24.4.8" type="github">
   <diagram name="Page-1" id="mF5-1dpCMwhVGof68q4r">
     <mxGraphModel dx="2284" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -50,8 +50,8 @@
         <mxCell id="1jMmflOh6GedlvBDHYe3-19" value="&lt;b&gt;Displays data&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-20" y="640" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1jMmflOh6GedlvBDHYe3-20" value="&lt;b&gt;Sends environment information&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="640" y="660" width="100" height="30" as="geometry" />
+        <mxCell id="1jMmflOh6GedlvBDHYe3-20" value="&lt;b&gt;Sends dof measurements&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="375" y="740" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1jMmflOh6GedlvBDHYe3-21" value="&lt;b&gt;writes data&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="420" y="520" width="100" height="30" as="geometry" />
@@ -75,6 +75,12 @@
         </mxCell>
         <mxCell id="4Q-SPtRwmX-QPYnWq9ld-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.94;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;curved=1;" edge="1" parent="1" source="1jMmflOh6GedlvBDHYe3-10" target="1jMmflOh6GedlvBDHYe3-3">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Q-SPtRwmX-QPYnWq9ld-6" value="&lt;b&gt;Sends 2D scan data&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="810" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Q-SPtRwmX-QPYnWq9ld-7" value="&lt;b&gt;Sends image data&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="750" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
