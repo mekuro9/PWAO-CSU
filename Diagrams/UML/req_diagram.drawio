@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-26T13:54:09.040Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="YrmcKtbaMmMBPSJWYxrK" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-26T13:57:07.183Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="o5ctqYFxFF6X0Cgavh3I" version="24.4.8" type="github">
   <diagram name="Page-1" id="JsQqndsf8agpKZZgXn96">
     <mxGraphModel dx="1434" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -119,12 +119,12 @@
             <mxRectangle width="46" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9y0vCKBri3shFIYVmUoE-40" value="Support addition of various safety mechanisms" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="9y0vCKBri3shFIYVmUoE-14" vertex="1">
+        <mxCell id="9y0vCKBri3shFIYVmUoE-40" value="&amp;nbsp;Implement a safety mechanism to detect errors" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="9y0vCKBri3shFIYVmUoE-14" vertex="1">
           <mxGeometry x="156" width="274" height="70" as="geometry">
             <mxRectangle width="274" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9y0vCKBri3shFIYVmUoE-17" value="As the system is developed, further complex safety issues can arise e.g. hardware issues or software bugs which will need to be fixed" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="9y0vCKBri3shFIYVmUoE-14" vertex="1">
+        <mxCell id="9y0vCKBri3shFIYVmUoE-17" value="If a component disconnects or fails to start then it can cause a disaster" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="9y0vCKBri3shFIYVmUoE-14" vertex="1">
           <mxGeometry x="430" width="306" height="70" as="geometry">
             <mxRectangle width="306" height="70" as="alternateBounds" />
           </mxGeometry>
@@ -218,7 +218,7 @@
             <mxRectangle width="46" height="51" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9y0vCKBri3shFIYVmUoE-41" value="Support multiple operation modes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="9y0vCKBri3shFIYVmUoE-20" vertex="1">
+        <mxCell id="9y0vCKBri3shFIYVmUoE-41" value="Support 2 operational modes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="9y0vCKBri3shFIYVmUoE-20" vertex="1">
           <mxGeometry x="156" width="274" height="51" as="geometry">
             <mxRectangle width="274" height="51" as="alternateBounds" />
           </mxGeometry>
@@ -251,7 +251,7 @@
             <mxRectangle width="46" height="57" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9y0vCKBri3shFIYVmUoE-42" value="Support addition of different user inputs" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="9y0vCKBri3shFIYVmUoE-26" vertex="1">
+        <mxCell id="9y0vCKBri3shFIYVmUoE-42" value="Support 2 different user inputs" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="9y0vCKBri3shFIYVmUoE-26" vertex="1">
           <mxGeometry x="156" width="274" height="57" as="geometry">
             <mxRectangle width="274" height="57" as="alternateBounds" />
           </mxGeometry>
