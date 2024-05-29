@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-29T14:38:35.834Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="CJafOBnthOYMVXXGx-Fm" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-29T14:39:44.715Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="__H4nKSPbAUH4WeKlCXx" version="24.4.8" type="github">
   <diagram name="Page-1" id="vFwo0hFjRwJ0brIeQsAi">
     <mxGraphModel dx="1103" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -87,11 +87,11 @@
         <mxCell id="cYiKdupG9aeIK6uEBfiI-3" value="setpoint/state = 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="260" y="590" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cYiKdupG9aeIK6uEBfiI-4" value="&lt;div&gt;MoveForward()&lt;/div&gt;&lt;div&gt;currentstate = 1&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cYiKdupG9aeIK6uEBfiI-4" value="&lt;div&gt;currentstate = 1&lt;/div&gt;&lt;div&gt;checkforobstacle()&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="568" y="630" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="cYiKdupG9aeIK6uEBfiI-5" value="&lt;div&gt;setpoint/state = 1&lt;br&gt;&lt;/div&gt;obstacle/front = 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="568" y="580" width="120" height="30" as="geometry" />
+        <mxCell id="cYiKdupG9aeIK6uEBfiI-5" value="&lt;div&gt;setpoint/state = 1&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="600" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cYiKdupG9aeIK6uEBfiI-6" value="&lt;div&gt;setpoint/state = 1&lt;br&gt;&lt;/div&gt;obstacle/front = 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="740" width="120" height="30" as="geometry" />
