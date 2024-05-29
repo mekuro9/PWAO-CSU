@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-29T18:25:36.086Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="Heqnc8KspISJzPUcjCZc" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-29T18:36:41.283Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="xqjqSzogaOvHytq9bgEc" version="24.4.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2336" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,7 +56,7 @@
         <mxCell id="4jITVnbDwjDfH4mT7TzJ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4jITVnbDwjDfH4mT7TzJ-5" target="4jITVnbDwjDfH4mT7TzJ-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4jITVnbDwjDfH4mT7TzJ-5" value="Setpoint State" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="4jITVnbDwjDfH4mT7TzJ-5" value="Check Setpoint State" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="640" y="170" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="4jITVnbDwjDfH4mT7TzJ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4jITVnbDwjDfH4mT7TzJ-8" target="4jITVnbDwjDfH4mT7TzJ-13">
