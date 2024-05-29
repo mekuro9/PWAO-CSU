@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-29T14:53:37.728Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="3TPXbIcwRkbhK0L3ECd0" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-29T14:55:07.769Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="LkN7dUI8WLINpgel5fX1" version="24.4.8" type="github">
   <diagram name="Page-1" id="vFwo0hFjRwJ0brIeQsAi">
     <mxGraphModel dx="1953" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -106,10 +106,10 @@
           <mxGeometry x="700" y="630" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cYiKdupG9aeIK6uEBfiI-10" value="&lt;div&gt;setpoint/state = 2&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="590" width="120" height="30" as="geometry" />
+          <mxGeometry x="30" y="580" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cYiKdupG9aeIK6uEBfiI-11" value="&lt;div&gt;currentstate = 2&lt;br&gt;&lt;/div&gt;e = errorAngle" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="630" width="120" height="80" as="geometry" />
+          <mxGeometry x="30" y="620" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cYiKdupG9aeIK6uEBfiI-12" value="&lt;div&gt;obstacle/left = 1&lt;/div&gt;&lt;div&gt;e &amp;gt;0&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="180" y="750" width="120" height="30" as="geometry" />
@@ -122,6 +122,9 @@
         </mxCell>
         <mxCell id="cYiKdupG9aeIK6uEBfiI-16" value="&lt;div&gt;obstacle/right = 0&lt;br&gt;&lt;/div&gt;&lt;div&gt;e &amp;lt; 0&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="810" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cYiKdupG9aeIK6uEBfiI-17" value="turn()" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="820" width="110" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
