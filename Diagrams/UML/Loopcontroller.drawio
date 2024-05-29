@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-29T15:24:27.326Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="0_xzdbWGPuHPx1pq2P1f" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-29T15:25:11.767Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="O5rJ4iAwz58MxJEGQhL4" version="24.4.8" type="github">
   <diagram name="Page-1" id="vFwo0hFjRwJ0brIeQsAi">
     <mxGraphModel dx="2045" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -185,6 +185,12 @@
         </mxCell>
         <mxCell id="cYiKdupG9aeIK6uEBfiI-42" value="Continuous" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-120" y="1090" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cYiKdupG9aeIK6uEBfiI-43" value="setpoint/angle &amp;gt; 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="1260" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cYiKdupG9aeIK6uEBfiI-44" value="setpoint/angle &amp;lt; 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1260" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
