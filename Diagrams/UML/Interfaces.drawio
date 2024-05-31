@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T10:09:21.833Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="a80nVT5kbvHuHdNvEKWw" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-31T10:09:40.397Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="LGQWwMQIMttunbo9WcRZ" version="24.4.9" type="github">
   <diagram name="Page-1" id="mmhT-Pex-2ySGfsCANb3">
-    <mxGraphModel dx="1694" dy="409" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2154" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -712,16 +712,16 @@
           <mxGeometry x="770.7400000000002" y="1595.14" width="54.57" height="17.22" as="geometry" />
         </mxCell>
         <mxCell id="zPKu9c6Tq6T2r7FvCA2u-41" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeb127;strokeColor=#EEB127;gradientColor=#9e710c;glass=0;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="1700" y="1610" width="96.67" height="47.5" as="geometry" />
+          <mxGeometry x="1691.05" y="1582.64" width="96.67" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="zPKu9c6Tq6T2r7FvCA2u-42" value="&lt;font style=&quot;font-size: 9px;&quot; color=&quot;#ffffff&quot;&gt;Oak D Camera Driver&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#9a9996;opacity=40;arcSize=50;" vertex="1" parent="1">
-          <mxGeometry x="1701.05" y="1610" width="94.58" height="15" as="geometry" />
+          <mxGeometry x="1692.1" y="1582.64" width="94.58" height="15" as="geometry" />
         </mxCell>
         <mxCell id="zPKu9c6Tq6T2r7FvCA2u-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#5a4107;" vertex="1" parent="1">
-          <mxGeometry x="1700" y="1631.25" width="10" height="10" as="geometry" />
+          <mxGeometry x="1691.05" y="1603.89" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="zPKu9c6Tq6T2r7FvCA2u-44" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Image&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1710" y="1627.64" width="45.32" height="17.22" as="geometry" />
+          <mxGeometry x="1701.05" y="1600.2800000000002" width="45.32" height="17.22" as="geometry" />
         </mxCell>
         <mxCell id="zPKu9c6Tq6T2r7FvCA2u-45" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#16eaff;strokeColor=#16eaff;gradientColor=#00aabb;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1376.0300000000002" y="1656.1100000000006" width="130" height="111.32" as="geometry" />
