@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T09:44:56.596Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="V47WcogHK6k1MoQEF_ub" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-31T09:45:15.912Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="VbNEkjXSigy9Yf7dK7Ok" version="24.4.9" type="github">
   <diagram name="Page-1" id="mmhT-Pex-2ySGfsCANb3">
-    <mxGraphModel dx="1473" dy="303" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1806" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -703,16 +703,16 @@
           <mxGeometry x="1512.1000000000001" y="1578.5500000000002" width="54.57" height="17.22" as="geometry" />
         </mxCell>
         <mxCell id="zPKu9c6Tq6T2r7FvCA2u-35" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeb127;strokeColor=#EEB127;gradientColor=#9e710c;glass=0;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="991.6700000000001" y="1575.1400000000003" width="96.67" height="47.5" as="geometry" />
+          <mxGeometry x="738.6500000000001" y="1575.1400000000003" width="96.67" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="zPKu9c6Tq6T2r7FvCA2u-36" value="&lt;font style=&quot;font-size: 9px;&quot; color=&quot;#ffffff&quot;&gt;Rplidar driver&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#9a9996;opacity=40;arcSize=50;" vertex="1" parent="1">
-          <mxGeometry x="992.7200000000003" y="1575.1400000000003" width="94.58" height="15" as="geometry" />
+          <mxGeometry x="739.7000000000003" y="1575.1400000000003" width="94.58" height="15" as="geometry" />
         </mxCell>
         <mxCell id="zPKu9c6Tq6T2r7FvCA2u-37" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#5a4107;" vertex="1" parent="1">
-          <mxGeometry x="991.6700000000001" y="1599.0300000000002" width="10" height="10" as="geometry" />
+          <mxGeometry x="738.6500000000001" y="1599.0300000000002" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="zPKu9c6Tq6T2r7FvCA2u-38" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;scan data&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1023.7600000000002" y="1595.14" width="54.57" height="17.22" as="geometry" />
+          <mxGeometry x="770.7400000000002" y="1595.14" width="54.57" height="17.22" as="geometry" />
         </mxCell>
         <mxCell id="zPKu9c6Tq6T2r7FvCA2u-41" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeb127;strokeColor=#EEB127;gradientColor=#9e710c;glass=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1493.1499999999999" y="1679.9999999999998" width="96.67" height="47.5" as="geometry" />
