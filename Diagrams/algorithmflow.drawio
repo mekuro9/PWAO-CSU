@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T15:57:49.931Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="_PbfAdhk5wKXIuEIuO6g" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-31T15:59:51.225Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="zLqmJXQd6QXthy1GlJce" version="24.4.13" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2022" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -110,7 +110,7 @@
         <mxCell id="LLSXDayW7hjJtyxaxLPu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LLSXDayW7hjJtyxaxLPu-3" target="LLSXDayW7hjJtyxaxLPu-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LLSXDayW7hjJtyxaxLPu-3" value="Check Setpoint State" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#00aabb;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="LLSXDayW7hjJtyxaxLPu-3" value="Compute Error" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#00aabb;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1126" y="170" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="LLSXDayW7hjJtyxaxLPu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LLSXDayW7hjJtyxaxLPu-6" target="LLSXDayW7hjJtyxaxLPu-8">
@@ -121,15 +121,6 @@
         </mxCell>
         <mxCell id="LLSXDayW7hjJtyxaxLPu-6" value="Check Obstacle" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#00aabb;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1126" y="320" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="LLSXDayW7hjJtyxaxLPu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LLSXDayW7hjJtyxaxLPu-8">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1176" y="140" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1046" y="520" />
-              <mxPoint x="1046" y="140" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="LLSXDayW7hjJtyxaxLPu-8" value="Move Forward" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#eeb127;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1126" y="490" width="100" height="50" as="geometry" />
@@ -146,13 +137,13 @@
         <mxCell id="LLSXDayW7hjJtyxaxLPu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LLSXDayW7hjJtyxaxLPu-3" target="LLSXDayW7hjJtyxaxLPu-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LLSXDayW7hjJtyxaxLPu-13" value="Stop" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="LLSXDayW7hjJtyxaxLPu-13" value="e&amp;gt;0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1253" y="190" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LLSXDayW7hjJtyxaxLPu-14" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1253" y="340" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LLSXDayW7hjJtyxaxLPu-15" value="Forward" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="LLSXDayW7hjJtyxaxLPu-15" value="e&amp;lt;0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1176" y="280" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LLSXDayW7hjJtyxaxLPu-16" value="Switch Current State" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#eeb127;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
