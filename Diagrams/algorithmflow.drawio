@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T16:08:04.417Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="Lx3lAp3pq1iTPChfXuNI" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-31T16:09:27.565Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="3W-DrB-7aFgXnWaNijkX" version="24.4.13" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2022" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -104,9 +104,6 @@
         <mxCell id="LLSXDayW7hjJtyxaxLPu-0" value="Change Current State to Stop State" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#eeb127;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1336" y="195" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="LLSXDayW7hjJtyxaxLPu-1" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1136" y="50" width="80" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="LLSXDayW7hjJtyxaxLPu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LLSXDayW7hjJtyxaxLPu-3" target="LLSXDayW7hjJtyxaxLPu-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -115,19 +112,16 @@
         </mxCell>
         <mxCell id="LLSXDayW7hjJtyxaxLPu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LLSXDayW7hjJtyxaxLPu-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1176" y="480" as="targetPoint" />
+            <mxPoint x="1176" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LLSXDayW7hjJtyxaxLPu-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LLSXDayW7hjJtyxaxLPu-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1341" y="370" as="targetPoint" />
+            <mxPoint x="1341" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LLSXDayW7hjJtyxaxLPu-6" value="PID Controller Compute" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#00aabb;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1126" y="320" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="LLSXDayW7hjJtyxaxLPu-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LLSXDayW7hjJtyxaxLPu-1" target="LLSXDayW7hjJtyxaxLPu-3">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="1126" y="300" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="LLSXDayW7hjJtyxaxLPu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LLSXDayW7hjJtyxaxLPu-3" target="LLSXDayW7hjJtyxaxLPu-6">
           <mxGeometry relative="1" as="geometry" />
@@ -136,7 +130,7 @@
           <mxGeometry x="1180" y="280" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LLSXDayW7hjJtyxaxLPu-14" value="ControllerOutput &amp;gt; 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1209" y="340" width="127" height="30" as="geometry" />
+          <mxGeometry x="1209" y="320" width="127" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LLSXDayW7hjJtyxaxLPu-15" value="abs(e)&amp;lt;2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1226" y="190" width="60" height="30" as="geometry" />
@@ -148,13 +142,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LLSXDayW7hjJtyxaxLPu-19" value="ControllerOutput &amp;lt; 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1050" y="435" width="127" height="30" as="geometry" />
+          <mxGeometry x="1050" y="415" width="127" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LLSXDayW7hjJtyxaxLPu-20" value="Right Obstacle" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#00aabb;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1126" y="480" width="100" height="100" as="geometry" />
+        <mxCell id="LLSXDayW7hjJtyxaxLPu-20" value="Check Right Obstacle" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#00aabb;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1126" y="460" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="LLSXDayW7hjJtyxaxLPu-21" value="Left Obstacle" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#00aabb;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1340" y="320" width="100" height="100" as="geometry" />
+        <mxCell id="LLSXDayW7hjJtyxaxLPu-21" value="Check Left Obstacle" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#00aabb;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1340" y="300" width="100" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
