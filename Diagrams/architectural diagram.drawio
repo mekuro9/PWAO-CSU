@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-04T16:26:43.921Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="iG78oFfLe-roriPgYM7g" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-04T16:27:24.336Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="YpRtWX15hmni9KLuLNZl" version="24.4.13" type="github">
   <diagram name="Page-1" id="5wNfrocpncal_ENUbVDi">
     <mxGraphModel dx="2284" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -133,7 +133,7 @@
         <mxCell id="nIHRb_h8EGxtnhW7rng_-50" value="I2C" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="580.5" y="218.75" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jyv696TG6-hRHUrcxKSt-1" value="Web browser" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eaa812;shadow=1;" parent="1" vertex="1">
+        <mxCell id="jyv696TG6-hRHUrcxKSt-1" value="User interface Layer: Web browser" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eaa812;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="-120" y="205" width="90" height="55" as="geometry" />
         </mxCell>
         <mxCell id="jyv696TG6-hRHUrcxKSt-10" value="http" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
