@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-04T16:22:16.274Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="pxktP4QcjWL12kkxZwWP" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-04T16:26:03.442Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="oj8TKEPPWO6Z2C3alFAu" version="24.4.13" type="github">
   <diagram name="Page-1" id="5wNfrocpncal_ENUbVDi">
     <mxGraphModel dx="2284" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -27,7 +27,7 @@
         <mxCell id="nIHRb_h8EGxtnhW7rng_-2" value="Loop controller + safety" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00c8dc;shadow=1;gradientColor=#ffffff;gradientDirection=east;" parent="1" vertex="1">
           <mxGeometry x="440" y="205" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nIHRb_h8EGxtnhW7rng_-3" value="Sequence Controller" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00aabb;shadow=1;fillStyle=auto;gradientColor=#16eaff;gradientDirection=east;" parent="1" vertex="1">
+        <mxCell id="nIHRb_h8EGxtnhW7rng_-3" value="Sequence Control Layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00aabb;shadow=1;fillStyle=auto;gradientColor=#16eaff;gradientDirection=east;" parent="1" vertex="1">
           <mxGeometry x="230" y="205" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nIHRb_h8EGxtnhW7rng_-4" value="&lt;b&gt;&lt;font color=&quot;#ffffff&quot;&gt;Web server&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007e8a;glass=0;shadow=1;gradientColor=#00c8dc;gradientDirection=east;" parent="1" vertex="1">
@@ -166,7 +166,7 @@
             <mxPoint x="60" y="128" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ncQhssHNfEqB10aSNnV6-1" value="&lt;b&gt;Non real time&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ncQhssHNfEqB10aSNnV6-1" value="&lt;b&gt;Non real time&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-132.5" y="130" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
