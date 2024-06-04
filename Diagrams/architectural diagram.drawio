@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-04T16:21:19.420Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="MvcchvcHYRhKCxRt9zOT" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-04T16:22:16.274Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="pxktP4QcjWL12kkxZwWP" version="24.4.13" type="github">
   <diagram name="Page-1" id="5wNfrocpncal_ENUbVDi">
     <mxGraphModel dx="2284" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -77,7 +77,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nIHRb_h8EGxtnhW7rng_-20" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 10px;&quot;&gt;Power Wheelchair (Physical + Control System + Actuators)&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ad7c0d;shadow=1;" parent="1" vertex="1">
+        <mxCell id="nIHRb_h8EGxtnhW7rng_-20" value="&lt;font color=&quot;#f5f4f3&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Power Wheelchair (Physical + Control System + Actuators)&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ad7c0d;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="195" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="nIHRb_h8EGxtnhW7rng_-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="nIHRb_h8EGxtnhW7rng_-21" target="nIHRb_h8EGxtnhW7rng_-20" edge="1">
@@ -154,7 +154,7 @@
         <mxCell id="jyv696TG6-hRHUrcxKSt-15" value="User Assistive Device" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-113.75" y="280" width="77.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zoKQyQCh-kS3YB94Hqcn-1" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 10px;&quot;&gt;User&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ad7c0d;shadow=1;" parent="1" vertex="1">
+        <mxCell id="zoKQyQCh-kS3YB94Hqcn-1" value="&lt;b&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 10px;&quot;&gt;User&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ad7c0d;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="-250" y="199.38" width="80" height="71.25" as="geometry" />
         </mxCell>
         <mxCell id="zoKQyQCh-kS3YB94Hqcn-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.022;entryY=0.452;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=openAsync;endFill=0;" parent="1" source="zoKQyQCh-kS3YB94Hqcn-1" target="jyv696TG6-hRHUrcxKSt-2" edge="1">
@@ -162,7 +162,7 @@
         </mxCell>
         <mxCell id="zoKQyQCh-kS3YB94Hqcn-3" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="60" y="520" as="sourcePoint" />
+            <mxPoint x="60" y="470" as="sourcePoint" />
             <mxPoint x="60" y="128" as="targetPoint" />
           </mxGeometry>
         </mxCell>
