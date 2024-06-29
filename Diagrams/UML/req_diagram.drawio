@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-29T23:50:03.956Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="qnZhXbVm2g_5sv2CgTno" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-29T23:52:53.328Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="8AzH1Gn2Bd1ZdA_dZZDu" version="24.6.4" type="github">
   <diagram name="Page-1" id="JsQqndsf8agpKZZgXn96">
     <mxGraphModel dx="1750" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -185,7 +185,7 @@
             <mxRectangle width="47" height="87" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9y0vCKBri3shFIYVmUoE-47" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Implement real time obstacle detection&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="9y0vCKBri3shFIYVmUoE-44" vertex="1">
+        <mxCell id="9y0vCKBri3shFIYVmUoE-47" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Implement real-time obstacle detection&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="9y0vCKBri3shFIYVmUoE-44" vertex="1">
           <mxGeometry x="158" width="246" height="87" as="geometry">
             <mxRectangle width="246" height="87" as="alternateBounds" />
           </mxGeometry>
