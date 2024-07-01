@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T23:06:52.659Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="zHTDPc86cM8lQKKXjmWr" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-01T23:07:24.475Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="OmPoZ72fKSsNik-RMVrp" version="24.6.4" type="github">
   <diagram name="Page-1" id="5wNfrocpncal_ENUbVDi">
-    <mxGraphModel dx="1412" dy="1373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1625" dy="1476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -554,7 +554,7 @@
           <mxGeometry x="205" y="1527.19" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-116" value="User interface to Sequence controller" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-44.5" y="2010" width="220" height="30" as="geometry" />
+          <mxGeometry x="-41.5" y="2037" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-117" value="&lt;p style=&quot;line-height: 120%;&quot; align=&quot;right&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#deddda;shadow=1;gradientColor=#f6f5f4;gradientDirection=east;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="-146.5" y="2156.86" width="100" height="159.39" as="geometry" />
@@ -681,6 +681,9 @@
             <mxPoint x="203.43000000000004" y="2426.8599999999997" as="targetPoint" />
             <mxPoint x="203.09" y="2403.43" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-D8imHahCjLG-PY-Is-183" value="Processing and publishing" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="58.5" y="2330" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
