@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T16:12:59.849Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="sZgovqOlrIghcOEisa7X" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-01T16:17:06.692Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="kpXrkYAuukwt-dy3jAL1" version="24.6.4" type="github">
   <diagram name="Page-1" id="5wNfrocpncal_ENUbVDi">
     <mxGraphModel dx="1839" dy="1580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -180,8 +180,8 @@
         </mxCell>
         <mxCell id="PQUjQ4LUaXkCyjSrOcuq-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="620" y="850" as="targetPoint" />
-            <mxPoint x="469.5" y="850" as="sourcePoint" />
+            <mxPoint x="620.5" y="854.66" as="targetPoint" />
+            <mxPoint x="470" y="854.66" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PQUjQ4LUaXkCyjSrOcuq-4" value="Loop controller + safety" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00c8dc;shadow=1;gradientColor=#ffffff;gradientDirection=east;" parent="1" vertex="1">
@@ -219,14 +219,11 @@
         <mxCell id="PQUjQ4LUaXkCyjSrOcuq-14" value="Teensy" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="349.5" y="980" width="125" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PQUjQ4LUaXkCyjSrOcuq-15" value="I2C" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="530.5" y="825" width="50" height="20" as="geometry" />
+        <mxCell id="PQUjQ4LUaXkCyjSrOcuq-15" value="2 x int : I2C" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="510" y="838.75" width="80" height="13.75" as="geometry" />
         </mxCell>
-        <mxCell id="p1-D8imHahCjLG-PY-Is-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="620" y="860" as="targetPoint" />
-            <mxPoint x="469.5" y="860" as="sourcePoint" />
-          </mxGeometry>
+        <mxCell id="p1-D8imHahCjLG-PY-Is-2" value="linearPWM, turn PWM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="489.5" y="857.5" width="120" height="13.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
