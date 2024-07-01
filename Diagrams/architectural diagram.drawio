@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T20:45:22.920Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="jqFSlc4-f5yEueH9I-qb" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-01T20:48:27.617Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="F7iJWzGpNOD0YacK00B5" version="24.6.4" type="github">
   <diagram name="Page-1" id="5wNfrocpncal_ENUbVDi">
-    <mxGraphModel dx="1328" dy="1332" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2097" dy="1705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -320,7 +320,7 @@
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;exitX=1.027;exitY=0.659;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="p1-D8imHahCjLG-PY-Is-44">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="598" y="1605" as="targetPoint" />
+            <mxPoint x="550" y="1605" as="targetPoint" />
             <mxPoint x="508" y="1605" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
@@ -330,25 +330,25 @@
         <mxCell id="p1-D8imHahCjLG-PY-Is-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="p1-D8imHahCjLG-PY-Is-46" target="p1-D8imHahCjLG-PY-Is-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p1-D8imHahCjLG-PY-Is-46" value="IMU driver" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00c8dc;shadow=1;gradientColor=#ffffff;gradientDirection=east;" vertex="1" parent="1">
+        <mxCell id="p1-D8imHahCjLG-PY-Is-46" value="IMU driver" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eaa812;shadow=1;gradientColor=#ffffff;gradientDirection=east;" vertex="1" parent="1">
           <mxGeometry x="394.5" y="1670" width="92.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=openAsync;endFill=0;" edge="1" parent="1" source="p1-D8imHahCjLG-PY-Is-48" target="p1-D8imHahCjLG-PY-Is-52">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="747" y="1670" />
-              <mxPoint x="747" y="1670" />
+              <mxPoint x="700" y="1670" />
+              <mxPoint x="700" y="1670" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-48" value="&lt;font color=&quot;#f5f4f3&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Power Wheelchair (Physical + Control System + Actuators)&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ad7c0d;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="702.5" y="1566.56" width="100" height="80" as="geometry" />
+          <mxGeometry x="655.5" y="1566.56" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p1-D8imHahCjLG-PY-Is-50" target="p1-D8imHahCjLG-PY-Is-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-50" value="D/A Digital Potentiometer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eaa812;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="597" y="1583.12" width="73" height="46.88" as="geometry" />
+          <mxGeometry x="550" y="1583.12" width="73" height="46.88" as="geometry" />
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="p1-D8imHahCjLG-PY-Is-52" target="p1-D8imHahCjLG-PY-Is-46">
           <mxGeometry relative="1" as="geometry">
@@ -359,19 +359,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-52" value="IMU BNO055" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eaa812;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="722.5" y="1683.13" width="60" height="30" as="geometry" />
+          <mxGeometry x="675.5" y="1683.13" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-53" value="Teensy 4.0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="382.25" y="1730" width="125" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="p1-D8imHahCjLG-PY-Is-54" value="2 x int : I2C" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="517" y="1588.76" width="80" height="13.75" as="geometry" />
+        <mxCell id="p1-D8imHahCjLG-PY-Is-54" value="I2C" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="478.5" y="1591.8799999999999" width="80" height="13.75" as="geometry" />
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-55" value="linearPWM, turn PWM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="517.25" y="1611.88" width="80.75" height="13.75" as="geometry" />
+          <mxGeometry x="477.75" y="1613.75" width="80.75" height="13.75" as="geometry" />
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-56" value="I2C : 9dof" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="568" y="1678.13" width="59.5" height="13.75" as="geometry" />
+          <mxGeometry x="499" y="1678.1200000000001" width="59.5" height="13.75" as="geometry" />
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-57" value="imu::vector&amp;lt;3&amp;gt; angle" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="424.75" y="1635" width="74.25" height="35" as="geometry" />
@@ -449,7 +449,7 @@
           <mxGeometry x="175" y="1733.13" width="95" height="20" as="geometry" />
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-76" value="Volt" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="660" y="1588.76" width="39.5" height="13.75" as="geometry" />
+          <mxGeometry x="613" y="1588.76" width="39.5" height="13.75" as="geometry" />
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-78" value="User Test" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="279.5" y="1390" width="70" height="30" as="geometry" />
