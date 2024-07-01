@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T16:30:48.450Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="RP_DTMmw0NQilZ-9l2W5" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-01T16:31:53.449Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="D4JQwrinU00WDbyBnsSS" version="24.6.4" type="github">
   <diagram name="Page-1" id="5wNfrocpncal_ENUbVDi">
     <mxGraphModel dx="1669" dy="1498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -246,6 +246,9 @@
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-12" value="USB Serial" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="245" y="835.63" width="95" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-D8imHahCjLG-PY-Is-13" value="setpoint (state, angle)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240.25" y="800" width="95" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
