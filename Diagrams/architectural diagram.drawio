@@ -1,12 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T17:08:54.547Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="38shqch5FB-ZzIacnhNI" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-01T17:09:36.991Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="9S2u1DYKE4nVhrwkWg9E" version="24.6.4" type="github">
   <diagram name="Page-1" id="5wNfrocpncal_ENUbVDi">
     <mxGraphModel dx="2097" dy="1705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="p1-D8imHahCjLG-PY-Is-23" value="&lt;p style=&quot;line-height: 120%;&quot; align=&quot;right&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#deddda;shadow=1;gradientColor=#f6f5f4;gradientDirection=east;" vertex="1" parent="1">
-          <mxGeometry x="-350" y="783.75" width="230" height="270" as="geometry" />
-        </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-12" value="USB Serial" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d6b656;fillColor=#fff2cc;opacity=40;" vertex="1" parent="1">
           <mxGeometry x="242.5" y="831.25" width="95" height="20" as="geometry" />
         </mxCell>
@@ -236,10 +233,10 @@
           <mxGeometry x="400.25" y="880" width="74.25" height="35" as="geometry" />
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-7" value="&lt;p style=&quot;line-height: 120%;&quot; align=&quot;right&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#deddda;shadow=1;gradientColor=#f6f5f4;gradientDirection=east;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="780" width="305" height="270" as="geometry" />
+          <mxGeometry x="-320" y="780" width="575" height="270" as="geometry" />
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-8" value="Lenovo, Ubuntu 22.04" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="42.5" y="1023.75" width="125" height="30" as="geometry" />
+          <mxGeometry x="-89" y="1020" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-9" value="Sequence Controller" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00aabb;shadow=1;fillStyle=auto;gradientColor=#16eaff;gradientDirection=east;" vertex="1" parent="1">
           <mxGeometry x="110" y="811.25" width="120" height="60" as="geometry" />
@@ -278,9 +275,6 @@
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-18" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;html page&lt;/b&gt;&lt;/font&gt;" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#298c8c;" vertex="1" parent="1">
           <mxGeometry y="790" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="p1-D8imHahCjLG-PY-Is-24" value="Client Device (here, Android phone)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-300" y="1023.75" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.997;entryY=0.873;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="p1-D8imHahCjLG-PY-Is-15" target="p1-D8imHahCjLG-PY-Is-17">
           <mxGeometry relative="1" as="geometry" />
