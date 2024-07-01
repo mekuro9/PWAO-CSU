@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T16:31:53.449Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="D4JQwrinU00WDbyBnsSS" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-01T16:34:25.809Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="ksW9d8Q27fp1cq0hZnQz" version="24.6.4" type="github">
   <diagram name="Page-1" id="5wNfrocpncal_ENUbVDi">
     <mxGraphModel dx="1669" dy="1498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="p1-D8imHahCjLG-PY-Is-12" value="USB Serial" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d6b656;fillColor=#fff2cc;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="831.25" width="95" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="jyv696TG6-hRHUrcxKSt-2" value="&lt;p style=&quot;line-height: 120%;&quot; align=&quot;right&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#deddda;shadow=1;gradientColor=#f6f5f4;gradientDirection=east;" parent="1" vertex="1">
           <mxGeometry x="-132.5" y="165" width="115" height="155" as="geometry" />
         </mxCell>
@@ -244,11 +247,11 @@
         <mxCell id="p1-D8imHahCjLG-PY-Is-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0.004;exitY=0.687;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="PQUjQ4LUaXkCyjSrOcuq-4" target="p1-D8imHahCjLG-PY-Is-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p1-D8imHahCjLG-PY-Is-12" value="USB Serial" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="245" y="835.63" width="95" height="20" as="geometry" />
+        <mxCell id="p1-D8imHahCjLG-PY-Is-13" value="topic: setpoint (state, angle)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="800" width="95" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p1-D8imHahCjLG-PY-Is-13" value="setpoint (state, angle)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="240.25" y="800" width="95" height="20" as="geometry" />
+        <mxCell id="p1-D8imHahCjLG-PY-Is-14" value="topic: current (state, angle)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="870" width="95" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
