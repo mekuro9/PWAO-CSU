@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T17:05:28.812Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="9y7DbDlwOhJpjQ-kHnqq" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-01T17:07:51.565Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="rbtuL1ZVDmzYnAPo8BHN" version="24.6.4" type="github">
   <diagram name="Page-1" id="5wNfrocpncal_ENUbVDi">
     <mxGraphModel dx="2097" dy="1705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -241,14 +241,6 @@
         <mxCell id="p1-D8imHahCjLG-PY-Is-8" value="Lenovo, Ubuntu 22.04" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="42.5" y="1023.75" width="125" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="p1-D8imHahCjLG-PY-Is-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p1-D8imHahCjLG-PY-Is-9" target="p1-D8imHahCjLG-PY-Is-15">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="150" y="930" />
-              <mxPoint x="150" y="930" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-9" value="Sequence Controller" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00aabb;shadow=1;fillStyle=auto;gradientColor=#16eaff;gradientDirection=east;" vertex="1" parent="1">
           <mxGeometry x="110" y="811.25" width="120" height="60" as="geometry" />
         </mxCell>
@@ -304,6 +296,9 @@
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-30" value="&lt;div&gt;NTP&lt;/div&gt;&lt;div&gt;Webpage&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-132.5" y="903.13" width="95" height="31.25" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-D8imHahCjLG-PY-Is-31" value="topic: webinput (command)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="122.5" y="913.75" width="95" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
