@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T16:25:26.541Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="O6M9y6xxBi-fv3Ng_7Ix" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-01T16:25:58.419Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="YBEwl_XJtCHx9qh7Re1N" version="24.6.4" type="github">
   <diagram name="Page-1" id="5wNfrocpncal_ENUbVDi">
     <mxGraphModel dx="1585" dy="1457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -205,6 +205,9 @@
           <mxGeometry x="729.5" y="815" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PQUjQ4LUaXkCyjSrOcuq-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="PQUjQ4LUaXkCyjSrOcuq-10" target="PQUjQ4LUaXkCyjSrOcuq-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-D8imHahCjLG-PY-Is-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontStyle=1" edge="1" parent="1" source="PQUjQ4LUaXkCyjSrOcuq-10" target="PQUjQ4LUaXkCyjSrOcuq-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PQUjQ4LUaXkCyjSrOcuq-10" value="D/A Digital Potentiometer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eaa812;shadow=1;" parent="1" vertex="1">
