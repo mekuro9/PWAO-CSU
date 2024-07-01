@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T23:17:43.410Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="0UlfWHfWn1GkYK8FiyDk" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-01T23:18:40.315Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="aZJuh-21vbEgKnp0WGiJ" version="24.6.4" type="github">
   <diagram name="Page-1" id="5wNfrocpncal_ENUbVDi">
     <mxGraphModel dx="1605" dy="1466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -768,6 +768,15 @@
         <mxCell id="p1-D8imHahCjLG-PY-Is-210" value="topic: loop/currentstate" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="357.75" y="2988.15" width="100.5" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="p1-D8imHahCjLG-PY-Is-221" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p1-D8imHahCjLG-PY-Is-212" target="p1-D8imHahCjLG-PY-Is-213">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="2890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="2875" />
+              <mxPoint x="500" y="2908" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-212" value="" style="ellipse;html=1;shape=startState;fillColor=#ffffff;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="298.25" y="2860" width="30" height="30" as="geometry" />
         </mxCell>
@@ -775,7 +784,7 @@
           <mxGeometry x="298.25" y="2893.43" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-214" value="\(\Delta t\)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="368.5" y="2880" width="80" height="30" as="geometry" />
+          <mxGeometry x="437.63" y="2880" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-215" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;dashed=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -797,6 +806,12 @@
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-220" value="topic: setpoint/state" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="356" y="2937" width="86.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-D8imHahCjLG-PY-Is-222" value="end" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="2893.43" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-D8imHahCjLG-PY-Is-223" value="start" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="257.25" y="2860" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
