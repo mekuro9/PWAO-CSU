@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T20:28:35.722Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="XdRAf04WMkmsOx6lHlsu" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-01T20:31:39.913Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="5V6QazscaYzbaRR9i5Y-" version="24.6.4" type="github">
   <diagram name="Page-1" id="5wNfrocpncal_ENUbVDi">
-    <mxGraphModel dx="1719" dy="1522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1997" dy="1657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="p1-D8imHahCjLG-PY-Is-79" value="&lt;p style=&quot;line-height: 120%;&quot; align=&quot;right&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#deddda;shadow=1;gradientColor=#f6f5f4;gradientDirection=east;" vertex="1" parent="1">
-          <mxGeometry x="-373" y="1530" width="190" height="270" as="geometry" />
+          <mxGeometry x="-350" y="1580" width="160" height="210" as="geometry" />
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-80" value="MyTobii, Eye Controlled Tablet" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-353" y="1770" width="125" height="30" as="geometry" />
+          <mxGeometry x="-329" y="1753.13" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-12" value="USB Serial" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d6b656;fillColor=#fff2cc;opacity=40;" vertex="1" parent="1">
           <mxGeometry x="242.5" y="831.25" width="117.5" height="20" as="geometry" />
@@ -412,11 +412,18 @@
         <mxCell id="p1-D8imHahCjLG-PY-Is-66" value="&lt;div&gt;ROSbridge Server&lt;/div&gt;&lt;div&gt;ws: port 9090&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00aabb;shadow=1;fillStyle=auto;gradientColor=#16eaff;gradientDirection=east;" vertex="1" parent="1">
           <mxGeometry x="-122.5" y="1703.13" width="107" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="p1-D8imHahCjLG-PY-Is-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="p1-D8imHahCjLG-PY-Is-67" target="p1-D8imHahCjLG-PY-Is-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-186" y="1648" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-67" value="&lt;div&gt;Flask Server&lt;/div&gt;&lt;div&gt;http: port 5000&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00aabb;shadow=1;fillStyle=auto;gradientColor=#16eaff;gradientDirection=east;" vertex="1" parent="1">
           <mxGeometry x="-121.5" y="1631.88" width="105" height="43.75" as="geometry" />
         </mxCell>
-        <mxCell id="p1-D8imHahCjLG-PY-Is-68" value="&lt;div&gt;Web browser: Web page&lt;/div&gt;&lt;div&gt;localhost:5000&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eaa812;shadow=1;gradientColor=#f6d32d;gradientDirection=west;" vertex="1" parent="1">
-          <mxGeometry x="-355" y="1601.25" width="95" height="148.75" as="geometry" />
+        <mxCell id="p1-D8imHahCjLG-PY-Is-68" value="&lt;div&gt;Web browser: Web page&lt;/div&gt;&lt;div&gt;host:5000&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eaa812;shadow=1;gradientColor=#f6d32d;gradientDirection=west;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="1615.64" width="90" height="127.49" as="geometry" />
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p1-D8imHahCjLG-PY-Is-70" target="p1-D8imHahCjLG-PY-Is-67">
           <mxGeometry relative="1" as="geometry">
@@ -429,17 +436,14 @@
         <mxCell id="p1-D8imHahCjLG-PY-Is-70" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;html page&lt;/b&gt;&lt;/font&gt;" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#298c8c;" vertex="1" parent="1">
           <mxGeometry x="-123" y="1542.51" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="p1-D8imHahCjLG-PY-Is-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.027;entryY=0.349;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="p1-D8imHahCjLG-PY-Is-67" target="p1-D8imHahCjLG-PY-Is-68">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-72" value="JSON" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-240" y="1703.13" width="60" height="13.13" as="geometry" />
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-73" value="Http request" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-263" y="1633.75" width="95" height="20" as="geometry" />
+          <mxGeometry x="-240" y="1630" width="95" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p1-D8imHahCjLG-PY-Is-74" value="&lt;div&gt;NTP&lt;/div&gt;&lt;div&gt;Webpage&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-260" y="1653.75" width="95" height="31.25" as="geometry" />
+        <mxCell id="p1-D8imHahCjLG-PY-Is-74" value="&lt;div&gt;NTP,&lt;/div&gt;&lt;div&gt;Webpage&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="1646.56" width="95" height="31.25" as="geometry" />
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-75" value="topic: webinput (command)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="175" y="1733.13" width="95" height="20" as="geometry" />
@@ -480,7 +484,11 @@
           <mxGeometry x="10" y="1640" width="72.25" height="20" as="geometry" />
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.983;entryY=0.815;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="p1-D8imHahCjLG-PY-Is-66" target="p1-D8imHahCjLG-PY-Is-68">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-186" y="1720" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.381;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="p1-D8imHahCjLG-PY-Is-82" target="p1-D8imHahCjLG-PY-Is-81">
           <mxGeometry relative="1" as="geometry">
