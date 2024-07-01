@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T17:09:52.641Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="er2xVbN6w4Enhhj3Bxuf" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-01T17:11:05.210Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="L_J8vxLuJ1tkn9_cpt9B" version="24.6.4" type="github">
   <diagram name="Page-1" id="5wNfrocpncal_ENUbVDi">
-    <mxGraphModel dx="2097" dy="1705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1669" dy="1498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -199,7 +199,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PQUjQ4LUaXkCyjSrOcuq-8" value="&lt;font color=&quot;#f5f4f3&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Power Wheelchair (Physical + Control System + Actuators)&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ad7c0d;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="729.5" y="815" width="100" height="80" as="geometry" />
+          <mxGeometry x="749.5" y="815" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PQUjQ4LUaXkCyjSrOcuq-10" target="PQUjQ4LUaXkCyjSrOcuq-8">
           <mxGeometry relative="1" as="geometry" />
@@ -215,7 +215,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PQUjQ4LUaXkCyjSrOcuq-12" value="IMU BNO055" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eaa812;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="749.5" y="920" width="60" height="30" as="geometry" />
+          <mxGeometry x="755" y="928.13" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PQUjQ4LUaXkCyjSrOcuq-14" value="Teensy 4.0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="349.5" y="980" width="125" height="30" as="geometry" />
@@ -293,6 +293,9 @@
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-31" value="topic: webinput (command)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="122.5" y="913.75" width="95" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-D8imHahCjLG-PY-Is-32" value="Voltage" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690.5" y="834.38" width="60" height="13.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
