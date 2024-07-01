@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T16:49:19.223Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="LXX4nF0ogB2EBSfzEG-5" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-01T16:50:01.498Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="yCSdaIDTiv2_7EMp1Y_r" version="24.6.4" type="github">
   <diagram name="Page-1" id="5wNfrocpncal_ENUbVDi">
-    <mxGraphModel dx="1669" dy="1498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2097" dy="1705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -233,7 +233,7 @@
           <mxGeometry x="400.25" y="880" width="74.25" height="35" as="geometry" />
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-7" value="&lt;p style=&quot;line-height: 120%;&quot; align=&quot;right&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#deddda;shadow=1;gradientColor=#f6f5f4;gradientDirection=east;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="760" width="355" height="295" as="geometry" />
+          <mxGeometry x="-100" y="780" width="355" height="270" as="geometry" />
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-8" value="Lenovo, Ubuntu 22.04" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="255" y="1055" width="125" height="30" as="geometry" />
@@ -258,6 +258,9 @@
         </mxCell>
         <mxCell id="p1-D8imHahCjLG-PY-Is-16" value="&lt;div&gt;Flask Server&lt;/div&gt;&lt;div&gt;http: port 5000&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00aabb;shadow=1;fillStyle=auto;gradientColor=#16eaff;gradientDirection=east;" vertex="1" parent="1">
           <mxGeometry x="-84" y="867.5" width="124" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-D8imHahCjLG-PY-Is-17" value="D/A Digital Potentiometer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eaa812;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="871.25" width="120" height="61.88" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
