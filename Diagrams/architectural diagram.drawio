@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T22:58:42.725Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="VOcy1LYMaqggZ-mwBObf" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-01T23:00:16.459Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="5IpOYT7Vm_bsNjHcKJQg" version="24.6.4" type="github">
   <diagram name="Page-1" id="5wNfrocpncal_ENUbVDi">
     <mxGraphModel dx="1625" dy="1476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -620,7 +620,7 @@
         <mxCell id="p1-D8imHahCjLG-PY-Is-162" value="end" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="260" y="2088" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="p1-D8imHahCjLG-PY-Is-164" value="$\delta t$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="p1-D8imHahCjLG-PY-Is-164" value="\(\delta t)\" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="55" y="2098" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
