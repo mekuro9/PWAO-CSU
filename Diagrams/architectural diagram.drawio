@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-04T11:38:29.314Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="r12OFmarHJ7TG58E_dMC" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-04T11:39:12.137Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="72KVhwboif9WnOxLmCL9" version="24.6.4" type="github">
   <diagram name="Page-1" id="5wNfrocpncal_ENUbVDi">
     <mxGraphModel dx="2689" dy="1580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -866,8 +866,8 @@
         <mxCell id="P-98wv1R0ncBj8I5i9YS-3" value="&lt;p style=&quot;line-height: 120%;&quot; align=&quot;right&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#deddda;shadow=1;gradientColor=#f6f5f4;gradientDirection=east;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="-740" y="1338.76" width="410" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="P-98wv1R0ncBj8I5i9YS-4" value="Lenovo, Ubuntu 22.04" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-576.5" y="1578.76" width="125" height="30" as="geometry" />
+        <mxCell id="P-98wv1R0ncBj8I5i9YS-4" value="Lattepanda, Ubuntu 22.04" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-576.5" y="1578.76" width="146.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P-98wv1R0ncBj8I5i9YS-5" value="Sequence Controller" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00aabb;shadow=1;fillStyle=auto;gradientColor=#16eaff;gradientDirection=east;" vertex="1" parent="1">
           <mxGeometry x="-451.5" y="1390" width="105" height="38.75" as="geometry" />
