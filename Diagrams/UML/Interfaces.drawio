@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T16:08:54.635Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="5as5TlaWOlkbr_Llv46r" version="24.4.14" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-04T10:19:02.448Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="7zlyFczooQbk4FrkMwmD" version="24.6.4" type="github">
   <diagram name="Page-1" id="mmhT-Pex-2ySGfsCANb3">
     <mxGraphModel dx="2284" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -791,7 +791,7 @@
         <mxCell id="zPKu9c6Tq6T2r7FvCA2u-45" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#16eaff;strokeColor=#16eaff;gradientColor=#00aabb;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1421.69" y="2021.1800000000003" width="120.16" height="111.32" as="geometry" />
         </mxCell>
-        <mxCell id="zPKu9c6Tq6T2r7FvCA2u-46" value="&lt;font style=&quot;font-size: 9px;&quot; color=&quot;#ffffff&quot;&gt;lidar2image&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#9a9996;opacity=40;arcSize=50;" parent="1" vertex="1">
+        <mxCell id="zPKu9c6Tq6T2r7FvCA2u-46" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;lidar2image&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#9a9996;opacity=40;arcSize=50;" parent="1" vertex="1">
           <mxGeometry x="1421.69" y="2020.0000000000005" width="119" height="28.89" as="geometry" />
         </mxCell>
         <mxCell id="zPKu9c6Tq6T2r7FvCA2u-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zPKu9c6Tq6T2r7FvCA2u-47" target="zPKu9c6Tq6T2r7FvCA2u-113" edge="1">
